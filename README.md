@@ -1,6 +1,6 @@
-# Curso de Machine Learning
+# Inici
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
+Aquest es el respositori de Nick Veliz fet a l'assignatura de Implantacio de Sistemes operatius
 
 ## Contenido
 
