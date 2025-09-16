@@ -10,9 +10,9 @@ Aquest es el respositori de Nick Veliz fet a l'assignatura de Implantacio de Sis
 
 ## Uso
 
-Este repositorio está preparado para ser publicado con GitHub Pages.  
+Este repositorio está preparado para ser publicado con GitHub Pages por Nick Veliz.  
 Puedes ver la versión web pública en:  
-https://mireiaconsarnau.github.io/machine_learning/
+https://nickrolandveliz.github.io/ISOPJ1/
 
 ## Licencia
 
