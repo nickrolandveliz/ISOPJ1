@@ -19,6 +19,12 @@ Seguim amb l'espai del disc dur virtual, que segons el que ens demana la practic
 I aqui podem veure un resum de la maquina que crearem.
 <img width="858" height="467" alt="image" src="https://github.com/user-attachments/assets/8173f133-4780-4374-b2cb-78d206e876d1" />
 
+Una vegada fet iniciarem la instal·lació, on elegirem el idioma.
+<img width="813" height="633" alt="image" src="https://github.com/user-attachments/assets/5a591948-c048-4be6-a376-80c4ba7fc348" />
+
+
+<img width="789" height="463" alt="image" src="https://github.com/user-attachments/assets/b881977e-5bfe-4a26-b38f-ba678df1a2e9" />
+
 
 ## Llicènciament
 ## Gestors d'arrencada per a l'instal·lació DUALS
