@@ -34,6 +34,8 @@ I aqui ja el tindriem posat.
 La xarxa NAT és la millor opció per aquesta màquina perquè et dona internet de manera immediata, és segura (no exposa la màquina a la xarxa local) i no requereix configuració addicional.
 
 ## Llicènciament
+Ubuntu Desktop 22.04 està llicenciat sota diverses llicències de programari lliure i codi obert. La major part del sistema està sota la llicència GNU General Public License (GPL), mentre que altres components utilitzen llicències compatibles com MIT, Apache o BSD. La documentació oficial d’Ubuntu es distribueix sota Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
 ## Gestors d'arrencada per a l'instal·lació DUALS
 ## Punts de restauració
 ## Configuració de la xarxa
