@@ -29,6 +29,7 @@ En VirtualBox crearem una Xarxa NAT i seguidament la posariem ja que he pensat q
 <img width="768" height="118" alt="image" src="https://github.com/user-attachments/assets/c10b067a-2be0-49f4-bd51-f522e7f11d91" />
 
 I aqui ja el tindriem posat.
+
 <img width="559" height="237" alt="image" src="https://github.com/user-attachments/assets/2b877267-8078-45ed-90a1-352eb3dd4023" />
 
 La xarxa NAT és la millor opció per aquesta màquina perquè et dona internet de manera immediata, és segura (no exposa la màquina a la xarxa local) i no requereix configuració addicional.
