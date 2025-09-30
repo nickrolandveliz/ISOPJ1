@@ -23,9 +23,9 @@ Una vegada fet iniciarem la instal·lació, on elegirem el idioma.
 <img width="813" height="633" alt="image" src="https://github.com/user-attachments/assets/5a591948-c048-4be6-a376-80c4ba7fc348" />
 
 
-<img width="789" height="463" alt="image" src="https://github.com/user-attachments/assets/b881977e-5bfe-4a26-b38f-ba678df1a2e9" />
+<img width="771" height="399" alt="image" src="https://github.com/user-attachments/assets/b25b9cc2-7099-46ad-910d-91fa798b582f" />
 
-En VirtualBox crearem una Xarxa NAT i seguidament la posariem ja que he pensat que seria la millor opció ja que té una IP fixa, amb internet i es pot connectar amb l'equip amfitrio.
+En VirtualBox crearem una Xarxa NAT i seguidament la posariem ja que he pensat que seria la millor opció ja que té una IP fixa, amb internet i es pot connectar amb l'equip amfitrio.bet365 contacto
 <img width="768" height="118" alt="image" src="https://github.com/user-attachments/assets/c10b067a-2be0-49f4-bd51-f522e7f11d91" />
 
 I aqui ja el tindriem posat.
@@ -38,6 +38,17 @@ La xarxa NAT és la millor opció per aquesta màquina perquè et dona internet 
 Ubuntu Desktop 22.04 està llicenciat sota diverses llicències de programari lliure i codi obert. La major part del sistema està sota la llicència GNU General Public License (GPL), mentre que altres components utilitzen llicències compatibles com MIT, Apache o BSD. La documentació oficial d’Ubuntu es distribueix sota Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 
 ## Gestors d'arrencada per a l'instal·lació DUALS
+<img width="872" height="401" alt="image" src="https://github.com/user-attachments/assets/495817f6-a2cd-4f37-a42a-6ebe6cda7a33" />
+
+<img width="269" height="181" alt="image" src="https://github.com/user-attachments/assets/a516e756-e029-4a34-a6ca-bd4b322e17f9" />
+
+<img width="641" height="471" alt="image" src="https://github.com/user-attachments/assets/e2f73cdb-9e3c-4b76-b1e3-e8b7e5d4f062" />
+
+<img width="633" height="371" alt="image" src="https://github.com/user-attachments/assets/467169b5-8aea-4226-b0bf-e35efa28d6d0" />
+
+<img width="1018" height="822" alt="image" src="https://github.com/user-attachments/assets/184fe631-083d-43b8-88a0-dcbac5c098a9" />
+
+
 ## Punts de restauració
 ## Configuració de la xarxa
 ## Comandes generals i instal·lacions
