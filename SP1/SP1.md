@@ -48,6 +48,17 @@ Ubuntu Desktop 22.04 està llicenciat sota diverses llicències de programari ll
 
 <img width="1018" height="822" alt="image" src="https://github.com/user-attachments/assets/184fe631-083d-43b8-88a0-dcbac5c098a9" />
 
+<img width="478" height="131" alt="image" src="https://github.com/user-attachments/assets/3bfd0a58-75ca-4477-9d42-c7af792743e1" />
+
+<img width="632" height="320" alt="image" src="https://github.com/user-attachments/assets/a8fd14ac-045a-4ed1-992f-0d71aa791fb4" />
+
+<img width="603" height="227" alt="image" src="https://github.com/user-attachments/assets/72232dd5-7be1-48b8-89f2-2f99549ef766" />
+
+<img width="607" height="319" alt="image" src="https://github.com/user-attachments/assets/b2e867f4-e04f-4b81-83b0-35718a1475ad" />
+
+<img width="727" height="419" alt="image" src="https://github.com/user-attachments/assets/1982351c-84e3-47d8-a3b3-97881ecda8be" />
+
+
 
 ## Punts de restauració
 ## Configuració de la xarxa
