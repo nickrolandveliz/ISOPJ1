@@ -45,26 +45,25 @@ Per fer l'instal·lació dual, primer que tot a la configuració de la maquina h
 Seguidament posarem la iso de Windows.
 <img width="269" height="181" alt="image" src="https://github.com/user-attachments/assets/a516e756-e029-4a34-a6ca-bd4b322e17f9" />
 
-Començarem amb l'instal·lació i l'assignarem a l'espai lliure que tenim al disc dur.
+Començarem amb l'instal·lació. L'assignarem a l'espai lliure que tenim al disc dur.
 <img width="641" height="471" alt="image" src="https://github.com/user-attachments/assets/e2f73cdb-9e3c-4b76-b1e3-e8b7e5d4f062" />
 
-Fins que s'instal·le.
+L'assignarem a l'espai lliure que tenim al disc dur.
 <img width="633" height="371" alt="image" src="https://github.com/user-attachments/assets/467169b5-8aea-4226-b0bf-e35efa28d6d0" />
 
-Anirem amb el seguent pas de recuperar el GRUB, descarreguerem la ISO del "Super Grub2" i l'afegirem a la maquina.
+Fins que s'instal·le.
 <img width="1018" height="822" alt="image" src="https://github.com/user-attachments/assets/184fe631-083d-43b8-88a0-dcbac5c098a9" />
 
-Iniciarem la maquina desde la ISO.
+Anirem amb el seguent pas de recuperar el GRUB, descarreguerem la ISO del "Super Grub2" i l'afegirem a la maquina.
 <img width="478" height="131" alt="image" src="https://github.com/user-attachments/assets/3bfd0a58-75ca-4477-9d42-c7af792743e1" />
 
-Clicarem aquesta opció per detectar i visualitzar els boot menus.
+Iniciarem la maquina desde la ISO.
 <img width="632" height="320" alt="image" src="https://github.com/user-attachments/assets/a8fd14ac-045a-4ed1-992f-0d71aa791fb4" />
 
-Buscarem aquest, que ens portara al Ubuntu.
+Clicarem aquesta opció per detectar i visualitzar els boot menus.
 <img width="603" height="227" alt="image" src="https://github.com/user-attachments/assets/72232dd5-7be1-48b8-89f2-2f99549ef766" />
 
-
-
+Buscarem aquest, que ens portara al Ubuntu.
 <img width="607" height="319" alt="image" src="https://github.com/user-attachments/assets/b2e867f4-e04f-4b81-83b0-35718a1475ad" />
 
 <img width="727" height="419" alt="image" src="https://github.com/user-attachments/assets/1982351c-84e3-47d8-a3b3-97881ecda8be" />
