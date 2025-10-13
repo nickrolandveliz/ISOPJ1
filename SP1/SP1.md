@@ -66,7 +66,11 @@ Clicarem aquesta opció per detectar i visualitzar els boot menus.
 Buscarem aquest, que ens portara al Ubuntu.
 <img width="607" height="319" alt="image" src="https://github.com/user-attachments/assets/b2e867f4-e04f-4b81-83b0-35718a1475ad" />
 
+Una vegada l'iniciem, executarem les seguents comandes per arreglar el grub.
 <img width="727" height="419" alt="image" src="https://github.com/user-attachments/assets/1982351c-84e3-47d8-a3b3-97881ecda8be" />
+
+Una vegada fet reiniciarem la maquina, ja ens surtira per elegir.
+<img width="450" height="125" alt="image" src="https://github.com/user-attachments/assets/e4027854-7b1f-4e97-93b3-7821d35fe11c" />
 
 
 
