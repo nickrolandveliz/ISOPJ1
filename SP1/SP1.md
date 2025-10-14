@@ -75,5 +75,43 @@ Una vegada fet reiniciarem la maquina, ja ens surtira per elegir.
 
 
 ## Punts de restauració
+
+A la configuració de qualsevol maquina virtual Ubuntu que tinguessim, afegirrem un nou disc dur de 20GB que sera on es guardaran les copies.
+<img width="515" height="120" alt="image" src="https://github.com/user-attachments/assets/6f97eb02-1ffb-42bc-b590-b038bd7b7a5e" />
+
+Dins la maquina instal·larem primer el timeshift, que es un programa que realitza captures del nostre disc dur.
+<img width="795" height="387" alt="Captura de pantalla de 2025-10-07 12-55-21" src="https://github.com/user-attachments/assets/12bbc816-55cf-4e38-80e5-418d4e9b9695" />
+
+Despres crearem una nova partició per al disc nou que hem afegit. 
+<img width="818" height="552" alt="Captura de pantalla de 2025-10-07 13-06-16" src="https://github.com/user-attachments/assets/31174256-f3c2-4df5-b055-ff17de1c10e4" />
+
+Podem veure aqui que ja s'ha montat.
+<img width="616" height="161" alt="Captura de pantalla de 2025-10-07 13-07-44" src="https://github.com/user-attachments/assets/3f19afe9-7332-4045-b620-f43db66e17b9" />
+
+Seguidament li donarem un format a la partició amb la seguent comanda.
+<img width="809" height="314" alt="Captura de pantalla de 2025-10-07 13-08-33" src="https://github.com/user-attachments/assets/9279da8f-16ca-4137-9389-627ddf114681" />
+
+Despres per a la prova crearem un arxiu i una carpeta que mes tard borrarem.
+<img width="612" height="119" alt="Captura de pantalla de 2025-10-07 13-08-58" src="https://github.com/user-attachments/assets/ccc1893b-0d19-484e-a483-ab92bada682c" />
+
+Obrirem el programa de "Timeshift" i elegirem aquesta opció de "RSYNC".
+<img width="587" height="189" alt="image" src="https://github.com/user-attachments/assets/fb3cb0c7-f7ff-4d89-b01c-6055fddb848a" />
+
+A la seguent, ara haurem d'elegir del disc nou la seva partició.
+<img width="600" height="229" alt="image" src="https://github.com/user-attachments/assets/3c707a77-901b-4f1b-be94-b271b3e6fa59" />
+
+Configurarem quan volem que les faigui i posarem cada vegada que arranqui el sistema.
+<img width="450" height="513" alt="image" src="https://github.com/user-attachments/assets/29f04a50-52ac-4bff-bbb0-caa09aad655d" />
+
+
+Seguidament la carpeta personal del usuari.
+<img width="615" height="151" alt="image" src="https://github.com/user-attachments/assets/03d69fa6-1494-4f60-9688-57bb2107c49e" />
+
+
+Una vegada fet aixo finalitzarem i s'anira creant.
+<img width="610" height="159" alt="image" src="https://github.com/user-attachments/assets/9e351cdb-a273-44d2-a74b-d2efe56bda8d" />
+
+
+
 ## Configuració de la xarxa
 ## Comandes generals i instal·lacions
