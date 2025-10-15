@@ -109,9 +109,47 @@ Seguidament la carpeta personal del usuari.
 
 
 Una vegada fet aixo finalitzarem i s'anira creant.
-<img width="610" height="159" alt="image" src="https://github.com/user-attachments/assets/9e351cdb-a273-44d2-a74b-d2efe56bda8d" />
+<img width="773" height="616" alt="image" src="https://github.com/user-attachments/assets/af5c2d3f-13c2-46c2-b13c-3ffe83288051" />
 
+Veurem que s'haura creat.
+<img width="799" height="162" alt="image" src="https://github.com/user-attachments/assets/3e93ed85-d1d0-4dcd-b0eb-36375016ce99" />
+
+Ara borrarem la carpeta i fitxer de prova que hem creat.
+<img width="608" height="98" alt="Captura de pantalla de 2025-10-07 13-24-30" src="https://github.com/user-attachments/assets/ab9d3d0c-5502-45cc-bd3f-4f4d57a14545" />
+<img width="805" height="112" alt="Captura de pantalla de 2025-10-07 13-24-44" src="https://github.com/user-attachments/assets/60ab6d5d-0170-49ba-92df-e04ac4fc37ef" />
+
+I  a la instantania que s'havia creat, la restaurarem.
+<img width="479" height="354" alt="image" src="https://github.com/user-attachments/assets/21b97d82-1162-4f87-a0e5-41b1ff7a3f27" />
+
+Ens tocara esperar una estona ja que tarda un poc en restaurar-se.
+<img width="478" height="491" alt="image" src="https://github.com/user-attachments/assets/31e7d09d-7d5e-47e2-aa89-ba8380757df3" />
+
+Confirmarem totes les accions.
+<img width="495" height="520" alt="Captura de pantalla de 2025-10-07 13-30-39" src="https://github.com/user-attachments/assets/9cb6e7e1-c294-46ec-9258-ba1e1edfcef4" />
+
+Deixariem tot el proces per a que es restaure.
+<img width="953" height="694" alt="image" src="https://github.com/user-attachments/assets/dddaf008-e025-4f38-bcea-362f89a3df89" />
+
+I al terminal fent el "ls", podem veure que s'ha restaurat i surten el fitxer i la carpeta de prova que haviem esborrat abans.
+<img width="611" height="97" alt="Captura de pantalla de 2025-10-07 13-32-56" src="https://github.com/user-attachments/assets/9e077beb-efbf-41bd-bf0f-dce57f605d41" />
 
 
 ## Configuració de la xarxa
+
+Per al tema de la configuració de la xarxa anirem als parametres i crearem una nova de forma manual posant la IP que vulguessem.
+<img width="720" height="443" alt="image" src="https://github.com/user-attachments/assets/3faa86fa-2b4b-4edc-b13e-71d3cf6f041e" />
+
+Podem veure que ens faria ping a internet i a google.com.
+<img width="811" height="399" alt="Captura de pantalla de 2025-10-07 13-44-13" src="https://github.com/user-attachments/assets/707c77fd-62b0-4f01-951a-c787052da9cf" />
+
+Una altra forma seria manualment a traves de comandes amb netplan, on entrariem al seu fitxer i l'editariem al nostre gust pero ben estructurat i en sentit.
+<img width="562" height="374" alt="Captura de pantalla de 2025-10-07 13-51-43" src="https://github.com/user-attachments/assets/7a00664e-5458-44c1-8c4a-12a2ec324052" />
+
+Una vegada editat, guardarem aquest fitxer i per aplicar tot el que hem posat, utilitzarem aquesta comanda "netplan apply".
+<img width="808" height="294" alt="Captura de pantalla de 2025-10-07 13-52-01" src="https://github.com/user-attachments/assets/68fc84ca-b41c-4330-bf3c-f5088eb12c78" />
+
+I veuriem que tambe tindriem sortida a internet i a google.
+<img width="810" height="402" alt="Captura de pantalla de 2025-10-07 13-53-10" src="https://github.com/user-attachments/assets/2fb97207-294d-4918-b146-89123b64bd09" />
+
+
 ## Comandes generals i instal·lacions
