@@ -44,6 +44,7 @@ Per fer l'instal·lació dual, primer que tot a la configuració de la maquina h
 
 
 Seguidament posarem la iso de Windows.
+
 <img width="269" height="181" alt="image" src="https://github.com/user-attachments/assets/a516e756-e029-4a34-a6ca-bd4b322e17f9" />
 
 
@@ -60,6 +61,7 @@ Fins que s'instal·le.
 
 
 Anirem amb el seguent pas de recuperar el GRUB, descarreguerem la ISO del "Super Grub2" i l'afegirem a la maquina.
+
 <img width="478" height="131" alt="image" src="https://github.com/user-attachments/assets/3bfd0a58-75ca-4477-9d42-c7af792743e1" />
 
 
@@ -87,6 +89,7 @@ Una vegada fet reiniciarem la maquina, ja ens surtira per elegir.
 ## Punts de restauració
 
 A la configuració de qualsevol maquina virtual Ubuntu que tinguessim, afegirrem un nou disc dur de 20GB que sera on es guardaran les copies.
+
 <img width="515" height="120" alt="image" src="https://github.com/user-attachments/assets/6f97eb02-1ffb-42bc-b590-b038bd7b7a5e" />
 
 
@@ -148,6 +151,7 @@ Ens tocara esperar una estona ja que tarda un poc en restaurar-se.
 
 
 Confirmarem totes les accions.
+
 <img width="495" height="520" alt="Captura de pantalla de 2025-10-07 13-30-39" src="https://github.com/user-attachments/assets/9cb6e7e1-c294-46ec-9258-ba1e1edfcef4" />
 
 
