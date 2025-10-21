@@ -187,20 +187,22 @@ I veuriem que tambe tindriem sortida a internet i a google.
 
 ## Comandes generals i instal·lacions
 
-
+Per començar farem la comanda "apt-cache policy openvpn", no el tindrem instalat pero podrem veure que el candidat es el .11, nosaltres el canviareiem pel de baix.
 <img width="768" height="260" alt="image" src="https://github.com/user-attachments/assets/6e7a5306-aa8b-4f0f-8fe3-ed212d7a7997" />
 
 
+Seguidament crearem el fitxer "vpn.pref" per  a la ruta "/etc/apt/preferences.d" i ficarem la seguent informació per indicar la nostra preferencia i guardarem.
 <img width="545" height="122" alt="image" src="https://github.com/user-attachments/assets/96210a67-2a4d-4de7-8691-9864159f94d6" />
 
 
-
+Despres actualitzarem i podrem veure que el candidat haura canviat pel qual li hem indicat.
 <img width="771" height="650" alt="image" src="https://github.com/user-attachments/assets/5567f364-c163-49a1-8bb9-582ab9de0dd1" />
 
 
+Casi per acabar, l'instal·larem amb "apt install openvpn".
 <img width="532" height="75" alt="image" src="https://github.com/user-attachments/assets/ec17037f-813f-42ef-9e09-a96d918b33ac" />
 
-
+I comprovarem que se'ns ha descarregat la versio que voliem.
 <img width="774" height="58" alt="image" src="https://github.com/user-attachments/assets/5b4e9430-ac72-44a2-8db3-c93981965d92" />
 
 
