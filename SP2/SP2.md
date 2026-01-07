@@ -83,5 +83,17 @@ Anteriorment com que ja identificat quina es la meva partició, un cop ja ho sab
 <img width="690" height="268" alt="image" src="https://github.com/user-attachments/assets/e5928bd8-fe58-4b34-862b-0c4ddc552d8c" />
 
  * Aqui podem observar que esta creat correctament 
+<img width="561" height="218" alt="image" src="https://github.com/user-attachments/assets/9af4dc2a-b298-46f7-a313-3794ba4c7e9e" />
+
+ * Ara amb la comanda "mkfs.ext4" podem canviar la mida del bloc amb aquest cas ho posare amb **2048**.
+<img width="562" height="230" alt="image" src="https://github.com/user-attachments/assets/288ff108-65f3-43c4-bf09-31ccf03a5157" />
+
+ * I podem comprovar-ho amb aquesta comanda. 
+<img width="447" height="62" alt="image" src="https://github.com/user-attachments/assets/a1aba64a-b911-4978-ba39-7eb8a85065fe" />
+
+ * I a l'altra partició com **NTFS** per a que Windows ho reconeixi.
+<img width="489" height="59" alt="image" src="https://github.com/user-attachments/assets/90a70c56-110c-45ce-a39d-5c433b3a3360" />
+<img width="477" height="66" alt="image" src="https://github.com/user-attachments/assets/0446ffdf-cb4b-461b-a832-3f025b1a1924" />
+
 
 
