@@ -100,5 +100,24 @@ Anteriorment com que ja identificat quina es la meva partició, un cop ja ho sab
 <img width="560" height="189" alt="image" src="https://github.com/user-attachments/assets/3a6d1c98-f778-404b-9753-3a8a0661a512" />
 
 
+### Muntatge
+
+ * Per fer aquest apartat primerament començarem creant una carpeta i arxiu a la ruta **/mnt**.
+<img width="418" height="79" alt="image" src="https://github.com/user-attachments/assets/8327e6c5-37ad-4527-a40e-ccb9d63d79cf" />
+
+ * Muntem temporalment amb ```mount -t ext4 /dev/sdb1``` **/mnt/particio1, i afegim un arxiu dintre.
+<img width="561" height="85" alt="image" src="https://github.com/user-attachments/assets/3f6a33b7-4cf7-40a1-a1e0-864c0f98a5c2" />
+
+ * Si reiniciem la partició que acabem de muntar ja no es trobara, pero els arxius que hem creat no se han borrat ja que encara estan emmagatzemades al disc.
+
+ * A continuació podem fer-ho de manera persistent. Per fer-ho editarem el fitxer **/etc/fstab**.
+<img width="562" height="223" alt="image" src="https://github.com/user-attachments/assets/3cb5e15b-d12d-48fd-9147-b8b90f309ad3" />
+
+ * Si ara reiniciem amb aquest cas es persistent.
+<img width="361" height="36" alt="image" src="https://github.com/user-attachments/assets/56a18098-2ca1-4ec4-b352-a84caef602eb" />
+
+
+
+
 
 
