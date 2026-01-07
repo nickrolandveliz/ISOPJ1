@@ -83,7 +83,8 @@ Anteriorment com que ja identificat quina es la meva partició, un cop ja ho sab
 <img width="690" height="268" alt="image" src="https://github.com/user-attachments/assets/e5928bd8-fe58-4b34-862b-0c4ddc552d8c" />
 
  * Aqui podem observar que esta creat correctament 
-<img width="561" height="218" alt="image" src="https://github.com/user-attachments/assets/9af4dc2a-b298-46f7-a313-3794ba4c7e9e" />
+<img width="553" height="219" alt="image" src="https://github.com/user-attachments/assets/5a7ed630-2237-44e2-8d80-09f3095beafc" />
+
 
  * Ara amb la comanda "mkfs.ext4" podem canviar la mida del bloc amb aquest cas ho posare amb **2048**.
 <img width="562" height="230" alt="image" src="https://github.com/user-attachments/assets/288ff108-65f3-43c4-bf09-31ccf03a5157" />
@@ -93,7 +94,11 @@ Anteriorment com que ja identificat quina es la meva partició, un cop ja ho sab
 
  * I a l'altra partició com **NTFS** per a que Windows ho reconeixi.
 <img width="489" height="59" alt="image" src="https://github.com/user-attachments/assets/90a70c56-110c-45ce-a39d-5c433b3a3360" />
-<img width="477" height="66" alt="image" src="https://github.com/user-attachments/assets/0446ffdf-cb4b-461b-a832-3f025b1a1924" />
+<img width="474" height="46" alt="image" src="https://github.com/user-attachments/assets/1fa66097-8d33-4026-b251-75bfead538c8" />
+
+ * Finalment podem entrar al **GPARTED** i comprovar-ho.
+<img width="560" height="189" alt="image" src="https://github.com/user-attachments/assets/3a6d1c98-f778-404b-9753-3a8a0661a512" />
+
 
 
 
