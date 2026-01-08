@@ -116,8 +116,404 @@ Anteriorment com que ja identificat quina es la meva partició, un cop ja ho sab
  * Si ara reiniciem amb aquest cas es persistent.
 <img width="361" height="36" alt="image" src="https://github.com/user-attachments/assets/56a18098-2ca1-4ec4-b352-a84caef602eb" />
 
+## Gestió de processos
+Un procés eés la instància d'un programa en execució. A cadascun se li assigna un identificador únic (PID), està associat a un usuari propietari i pot trobar-se en diversos estats (com ara en execució, en espera o aturat). El sistema operatiu és el responsable de la planificació i la distribució del temps de CPU entre tots els processos.
 
+## Eines bàsiques de gestiío de processos
 
+Per gestionar els processos, disposem d'unes eines fonamentals:
+
+    Per visualitzar-los:
+
+        ps, top, htop → Mostren els processos actius.
+
+    Per finalitzar-los:
+
+        kill, pkill → Tanquen un procés pel seu PID o nom.
+
+    Per gestionar la prioritat:
+
+        nice, renice → Ajusten la prioritat d'execució.
+
+    Per controlar serveis (daemons):
+
+        systemctl, service → Inicien, aturen o reinicien serveis del sistema.
+
+**Aspectes pràctics**: Cal recordar que un procés hereta els permissos de l'usuari que l'ha llançat i pot estar associat tant a un servei del sistema com a una sessió d'usuari.
+
+ * A continuació, veuremcom utilitzar aquestes eines  a nivell bàsic.
+
+## Gestió d'usuaris i grups i permissos
+
+El model de seguretat de Linux es basa enels conceptes d'usuaris i grups, que defineixen de manera precisa qui pot accedir, modificar o executar arxius i processos al sistema.
+
+### Tipus d'usuaris
+
+**Usuari normal**: Un usuari estandard que pot iniciar sessio i treballar dins del seu entorn i espai personal. Els seus permissos són limitats per protegir la integritat del sistema.
+
+**Superusuari (root)**: L'administrador del sistema. Té accés i control absolut sobre totes les operacions i arxius. S'ha d'utilitzar amb extrema cura.
+
+**Usuari de servei(Daemon)**: Comptes especials creats per a l'execució de serveis o aplicacions (com www-data per a un servidor web o mysql per a la base de dades). No poden iniciar sessió interactiva.
+
+**Usuari de sistema**: Són similar als usuaris de servei i solen tenir un UID (User ID) baix (normalment per sota 1000). Estan reservats per a processos i funcions internes del sistema operatiu.
+
+### Grups
+Un grup és una col·lecció d'usuaris que comparteixen els mateixos permisos sobre certs arxius o directoris. Cada usuari pertany a:
+
+    Un grup principal, que es defineix al crear l'usuari.
+
+    Múltiples grups secundaris, als quals es pot afegir posteriorment.
+
+Els grups són una eina essencial per a la gestió eficient de permisos, ja que permeten, per exemple, concedir accés a una carpeta compartida a tot un equip de treball d'una sola vegada, en lloc de configurar els permisos per a cada usuari individualment.
+
+## Fitxers importants
+
+ * En Linux, la informació d'usuaris i grups es gestiona de manera centralitzada mitjançant fitxers de configuració de text ubicats dins del directori **/etc**.
+
+Explicació **/etc/passwd**:
+<img width="777" height="503" alt="image" src="https://github.com/user-attachments/assets/97534db9-7302-4cd1-8af0-4f0f6101a492" />
+
+Cada línia representa un usuari i conté 7 camps separats per dos punts:
+
+**nom_usuari:x:UID:GID:GECOS:directori_home:shell**
+
+Descripció detallada de cada camp
+
+1. **nom_usuari**
+
+    Exemple: root, anna, mysql
+
+    Descripció:
+
+        Nom únic que identifica l'usuari al sistema
+
+        És el que s'utilitza per iniciar sessió
+
+        Normalment té un màxim de 32 caràcters
+
+2. **x (camp de contrasenya)**
+
+    Exemple: x, *, !
+
+    Descripció:
+
+        x indica que la contrasenya està emmagatzemada a /etc/shadow
+
+        * o ! vol dir que el compte està blocat
+
+        Si està buit, l'usuari no té contrasenya (insicur)
+
+3. **UID (User ID)**
+
+    Exemple: 0, 1000, 33
+
+    Descripció:
+
+        Número d'identificació únic de l'usuari
+
+        0 = usuari root (superusuari)
+
+        1-999 = usuaris del sistema (serveis)
+
+        1000+ = usuaris normals
+
+4. **GID (Group ID)**
+
+    Exemple: 0, 1000, 33
+
+    Descripció:
+
+        Número del grup principal de l'usuari
+
+        Defineix els permisos per defecte per a nous arxius
+
+5. **GECOS (Informació addicional)**
+
+    Exemple: Anna Garcia,,,, Pere Lopez,Vendes,555-1234
+
+    Descripció:
+
+        Informació opcional sobre l'usuari
+
+        Normalment només s'inclou el nom complet
+
+        Format: Nom complet,Despatx,Telefon,Altres
+
+6. **directori_home**
+
+    Exemple: /home/anna, /root, /var/www
+
+    Descripció:
+
+        Directori personal de l'usuari
+
+        On s'emmagatzemen els seus arxius personals
+
+        Directori per defecte en iniciar sessió
+
+7. **shell**
+
+    Exemple: /bin/bash, /bin/sh, /usr/sbin/nologin
+
+    Descripció:
+
+        Intèrpret d'ordres que s'executa en iniciar sessió
+
+        /bin/bash = shell Bash normal
+
+        /usr/sbin/nologin o /bin/false = no permet inici de sessió (comptes de servei)
+
+Explicació **/etc/shadow**:
+<img width="487" height="492" alt="image" src="https://github.com/user-attachments/assets/b4605343-ecd6-48b2-888e-fdaf44992815" />
+
+L'arxiu /etc/shadow conté la informació de les contrasenyes dels usuaris i les polítiques d'expiració. És un arxiu segur que només pot llegir l'usuari root.
+
+Cada línia representa un usuari i conté 9 camps separats per dos punts:
+
+**nom_usuari:contrasenya_encryptada:darrers_canvis:minims:maxims:avis:inactiu:caducitat:camp_reserva**
+
+Descripció detallada de cada camp
+
+1. **nom_usuari**
+
+    Exemple: root, anna, mysql
+
+    Descripció:
+
+        Nom de l'usuari (ha de coincidir amb /etc/passwd)
+
+        Serveix com a clau d'enllaç entre els dos arxius
+
+2. **contrasenya_encryptada**
+
+    Exemple: $6$rounds=5000$t..., *, !!
+
+    Descripció:
+
+        Contrasenya encryptada amb hash
+
+        * o !! = compte blocat o sense contrasenya
+
+        Format: $algoritme$salt$hash
+
+        Algoritmes comuns: $1$ (MD5), $5$ (SHA-256), $6$ (SHA-512)
+
+3. **darrers_canvis (last change)**
+
+    Exemple: 19157, 0
+
+    Descripció:
+
+        Data de l'últim canvi de contrasenya en dies des de l'1/1/1970
+
+        0 = ha de canviar-la en el proper login
+
+        19157 = 19,157 dies des de l'1/1/1970
+
+4. **minims (minimum days)**
+
+    Exemple: 0, 7
+
+    Descripció:
+
+        Dies mínims que han de passar abans de poder canviar la contrasenya
+
+        0 = es pot canviar en qualsevol moment
+
+5. **maxims (maximum days)**
+
+    Exemple: 99999, 90
+
+    Descripció:
+
+        Dies màxims que la contrasenya és vàlida
+
+        99999 = quasi etern (273 anys)
+
+        90 = ha de canviar-la cada 90 dies
+
+6. **avis (warning days)**
+
+    Exemple: 7, 0
+
+    Descripció:
+
+        Quants dies abans de la caducitat s'envia un avís
+
+        7 = avisa 7 dies abans que caduqui
+
+7. **inactiu (inactive days)**
+
+    Exemple: -1, 30
+
+    Descripció:
+
+        Dies de gràcia després de caducar abans que el compte es desactivi
+
+        -1 = sense període d'inactivitat
+
+8. **caducitat (expiration date)**
+
+    Exemple: ``, 20000
+
+    Descripció:
+
+        Data absoluta de caducitat del compte en dies des de l'1/1/1970
+
+        Buit = el compte no caduca mai
+
+9. **camp_reserva (reserved field)**
+
+    Exemple: (buit)
+
+    Descripció:
+
+        Camp reservat per a ús futur
+
+        Normalment està buit
+
+Explicació **/etc/group**:
+<img width="493" height="500" alt="image" src="https://github.com/user-attachments/assets/e73d0813-041e-4194-a34b-a243902469b2" />
+
+L'arxiu /etc/group conté la informació dels grups del sistema i els seus membres. Defineix els grups d'usuaris i les seves relacions.
+
+Estructura de cada línia
+
+Cada línia representa un grup i conté 4 camps separats per dos punts:
+
+**nom_grup:contrasenya_grup:GID:llista_membres**
+
+Descripció detallada de cada camp
+
+1. **nom_grup**
+
+    Exemple: root, users, sudo, www-data
+
+    Descripció:
+
+        Nom del grup
+
+        Ha de ser únic al sistema
+
+        Normalment en minúscules
+
+2. **contrasenya_grup**
+
+    Exemple: x, *
+
+    Descripció:
+
+        x indica que la contrasenya del grup està a /etc/gshadow
+
+        * o buit = no hi ha contrasenya de grup
+
+        Rarament s'utilitza en sistemes moderns
+
+3. **GID (Group ID)**
+
+    Exemple: 0, 100, 1000, 33
+
+    Descripció:
+
+        Número d'identificació únic del grup
+
+        0 = grup root
+
+        1-999 = grups del sistema
+
+        1000+ = grups d'usuaris normals
+
+4. **llista_membres**
+
+    Exemple: anna,pere,marta, root, (buit)
+
+    Descripció:
+
+        Llista d'usuaris que són membres del grup, separats per comes
+
+        No inclou l'usuari que té aquest grup com a grup primari
+
+        Buit = cap usuari addicional al grup
+
+Explicació **/etc/gshadow**:
+<img width="624" height="617" alt="image" src="https://github.com/user-attachments/assets/f0346d0e-ba56-4f4e-9479-bccbca7f17ea" />
+
+L'arxiu **/etc/gshadow** conté la informació segura dels grups, incloent contrasenyes de grup i administradors. És la contrapart segura de **/etc/group**.
+
+Estructura de cada línia
+
+Cada línia representa un grup i conté 4 camps separats per dos punts:
+
+**nom_grup:contrasenya_encryptada:administradors:membres**
+
+Descripció detallada de cada camp
+
+1. **nom_grup**
+
+    Exemple: root, sudo, developers
+
+    Descripció:
+
+        Nom del grup (ha de coincidir amb /etc/group)
+
+        Serveix com a clau d'enllaç entre els dos arxius
+
+2. **contrasenya_encryptada**
+
+    Exemple: !, $6$rounds=5000$..., *
+
+    Descripció:
+
+        Contrasenya encryptada per canviar al grup amb newgrp
+
+        ! o * = no hi ha contrasenya de grup
+
+        Contrasenya vàlida = hash encryptat
+
+        Rarament s'utilitza en sistemes moderns
+
+3. **administradors**
+
+    Exemple: anna,root, pere, (buit)
+
+    Descripció:
+
+        Llista d'usuaris que poden gestionar el grup
+
+        Poden afegir/eliminar membres i canviar la contrasenya del grup
+
+        Separats per comes
+
+4. **membres**
+
+    Exemple: marta,jordi, user1,user2, (buit)
+
+    Descripció:
+
+        Llista d'usuaris que són membres del grup
+
+        Ha de coincidir amb el camp de membres de /etc/group
+
+        Separats per comes
+
+També tenim l’utilitat que ve en instal·lar **gnome-system-tools**. Que permet un poquet més.
+
+<img width="774" height="311" alt="image" src="https://github.com/user-attachments/assets/99ff8e3e-2057-472f-8792-b49d3fc1ccc9" />
+
+## Comandes bàsiques
+
+### Adduser
+
+<img width="774" height="501" alt="image" src="https://github.com/user-attachments/assets/bdbfc45d-4a0a-47cb-ad16-ffae9f8925d5" />
+
+### Userdel
+ * Aqui elimino el usuari.
+
+<img width="646" height="187" alt="image" src="https://github.com/user-attachments/assets/69749400-bb1e-425b-85de-3e7e689e2987" />
+
+ * Aqui creo l'usuari amb useradd i faig les comprovacions adients. Tambe canvio el tipus de shell.
+
+ 
 
 
 
