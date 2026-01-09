@@ -171,6 +171,7 @@ Els grups són una eina essencial per a la gestió eficient de permisos, ja que 
  * En Linux, la informació d'usuaris i grups es gestiona de manera centralitzada mitjançant fitxers de configuració de text ubicats dins del directori **/etc**.
 
 Explicació **/etc/passwd**:
+
 <img width="777" height="503" alt="image" src="https://github.com/user-attachments/assets/97534db9-7302-4cd1-8af0-4f0f6101a492" />
 
 Cada línia representa un usuari i conté 7 camps separats per dos punts:
@@ -374,6 +375,7 @@ Descripció detallada de cada camp
         Normalment està buit
 
 Explicació **/etc/group**:
+
 <img width="493" height="500" alt="image" src="https://github.com/user-attachments/assets/e73d0813-041e-4194-a34b-a243902469b2" />
 
 L'arxiu /etc/group conté la informació dels grups del sistema i els seus membres. Defineix els grups d'usuaris i les seves relacions.
@@ -437,6 +439,7 @@ Descripció detallada de cada camp
         Buit = cap usuari addicional al grup
 
 Explicació **/etc/gshadow**:
+
 <img width="624" height="617" alt="image" src="https://github.com/user-attachments/assets/f0346d0e-ba56-4f4e-9479-bccbca7f17ea" />
 
 L'arxiu **/etc/gshadow** conté la informació segura dels grups, incloent contrasenyes de grup i administradors. És la contrapart segura de **/etc/group**.
