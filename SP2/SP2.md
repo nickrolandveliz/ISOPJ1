@@ -520,5 +520,28 @@ També tenim l’utilitat que ve en instal·lar **gnome-system-tools**. Que perm
 
 ### Permisos
 
+<img width="538" height="336" alt="Captura de pantalla de 2026-01-09 13-19-55" src="https://github.com/user-attachments/assets/4656d628-3b11-48e8-98d3-2147eeeaa206" />
 
 
+<img width="540" height="91" alt="Captura de pantalla de 2026-01-09 13-20-12" src="https://github.com/user-attachments/assets/27de3aa5-07ed-4abb-9059-891e11d4f9c6" />
+
+
+<img width="556" height="181" alt="Captura de pantalla de 2026-01-09 13-20-22" src="https://github.com/user-attachments/assets/a55d7234-67bf-405b-9c22-7dce050a69a6" />
+
+
+<img width="386" height="146" alt="image" src="https://github.com/user-attachments/assets/3d893154-f043-4991-abc4-8f2bfa0341d4" />
+
+
+<img width="792" height="180" alt="image" src="https://github.com/user-attachments/assets/36818072-8db1-4a54-9515-837b5ddc0dc4" />
+
+
+<img width="651" height="115" alt="image" src="https://github.com/user-attachments/assets/b7a08fb4-bb65-40eb-97ff-d2358fca4b9a" />
+
+
+<img width="578" height="160" alt="image" src="https://github.com/user-attachments/assets/757911f7-3546-477c-b09b-6ae657c27b5b" />
+
+
+<img width="799" height="268" alt="image" src="https://github.com/user-attachments/assets/33eae41e-7cfe-43e4-9de5-0c4c1f4b1026" />
+
+
+<img width="850" height="484" alt="image" src="https://github.com/user-attachments/assets/33590278-3746-46d0-87d3-90973b8b219c" />
