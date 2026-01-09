@@ -264,6 +264,7 @@ Descripció detallada de cada camp
         /usr/sbin/nologin o /bin/false = no permet inici de sessió (comptes de servei)
 
 Explicació **/etc/shadow**:
+
 <img width="487" height="492" alt="image" src="https://github.com/user-attachments/assets/b4605343-ecd6-48b2-888e-fdaf44992815" />
 
 L'arxiu /etc/shadow conté la informació de les contrasenyes dels usuaris i les polítiques d'expiració. És un arxiu segur que només pot llegir l'usuari root.
