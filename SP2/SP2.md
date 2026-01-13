@@ -1022,7 +1022,7 @@ edquota -u usuari -> veure quotes un usuari
 
 setquota -u usuari -> establir quotes 1 usuari
 
-repquota /dev/sdc1 -> informe quotes de tots els usuaris el que ocupen
+repquota /dev/sdb1 -> informe quotes de tots els usuaris el que ocupen
 
 quotaon /mnt/dades -> activar
 
