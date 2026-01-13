@@ -1073,7 +1073,7 @@ Ara entrem desde el usuari gina i anem a la carpeta aquesta.
 
 Podem veure que per al usuari gina ens apareix.
 
-<img width="717" height="150" alt="image" src="https://github.com/user-attachments/assets/c9567249-36f6-43b7-ba7e-abdf293b08fe" />
+<img width="721" height="180" alt="image" src="https://github.com/user-attachments/assets/06db0c71-883a-4ff4-b39e-17ce6ce9f16f" />
 
 Canviarem permisos i amb aquesta comanda crearem un arxiu.
 
@@ -1081,9 +1081,13 @@ Canviarem permisos i amb aquesta comanda crearem un arxiu.
 
 <img width="616" height="89" alt="image" src="https://github.com/user-attachments/assets/6d2f23d1-ae14-4468-bfd6-23b17dad11e2" />
 
+I tornem a crear un altre arxiu per a ocupar espai amb aquesta carpeta.
+
+<img width="621" height="88" alt="image" src="https://github.com/user-attachments/assets/adccb718-b27c-419c-9734-e0ff7a8d7f16" />
+
 Si observem estem apunt d'excedirnos del limit.
 
-<img width="717" height="175" alt="image" src="https://github.com/user-attachments/assets/3b674b6b-b3ef-4c7f-8385-781385a5d19b" />
+<img width="719" height="180" alt="image" src="https://github.com/user-attachments/assets/2276dd72-56b4-459a-8af9-167b4f7f23c1" />
 
 Finalment crearem un altre arxiu.
 
