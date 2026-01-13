@@ -520,32 +520,117 @@ També tenim l’utilitat que ve en instal·lar **gnome-system-tools**. Que perm
 
 ### Permisos
 
+* Per fer aquest apartat he creat la carpeta palomes. Tambe un arxiu prova i he cambiat el grup propietari.
+
 <img width="538" height="336" alt="Captura de pantalla de 2026-01-09 13-19-55" src="https://github.com/user-attachments/assets/4656d628-3b11-48e8-98d3-2147eeeaa206" />
 
+* Aqui podem observar la jerarquia dels permisos
 
 <img width="540" height="91" alt="Captura de pantalla de 2026-01-09 13-20-12" src="https://github.com/user-attachments/assets/27de3aa5-07ed-4abb-9059-891e11d4f9c6" />
 
+Aqui estic configurant els permisos de la carpeta /var/palomes:
+
+    Canvio el grup propietari de nick a paloma
+
+    Afegeixo l'usuari ctre al grup paloma
+
+    Estableixo permisos 750 a la carpeta
 
 <img width="556" height="181" alt="Captura de pantalla de 2026-01-09 13-20-22" src="https://github.com/user-attachments/assets/a55d7234-67bf-405b-9c22-7dce050a69a6" />
 
+Si em connecto desde el usuari nick puc comprovar que puc fer de tot.
 
 <img width="386" height="146" alt="image" src="https://github.com/user-attachments/assets/3d893154-f043-4991-abc4-8f2bfa0341d4" />
 
+En canvi si ho faig desde el usuari cire no puc fer-ho.
 
 <img width="792" height="180" alt="image" src="https://github.com/user-attachments/assets/36818072-8db1-4a54-9515-837b5ddc0dc4" />
 
+I si ho faig desde el usuari ferran no puc ni entrar dins.
 
 <img width="651" height="115" alt="image" src="https://github.com/user-attachments/assets/b7a08fb4-bb65-40eb-97ff-d2358fca4b9a" />
 
+Aqui estic ampliant els permisos de la carpeta /var/palomes:
 
+    Afegeixo l'usuari ferran al grup paloma
+
+    Afegeixo l'usuari detvy al grup paloma
+
+    Dono permisos d'escriptura al grup amb chmod g+w
+    
 <img width="578" height="160" alt="image" src="https://github.com/user-attachments/assets/757911f7-3546-477c-b09b-6ae657c27b5b" />
 
+Aqui estic verificant els permisos de la carpeta /var/palomes:
+
+    Com l'usuari deivi (del grup paloma):
+
+        Puc accedir a la carpeta
+
+        Puc crear fitxers (touch ptl)
+
+    Com l'usuari ferran (també del grup paloma):
+
+        Puc accedir a la carpeta i llistar contingut
+
+        Puc eliminar fitxers (demana confirmació perquè el fitxer és protegit)
+
+Resultat que confirmo:
+
+    Tots dos usuaris del grup paloma poden accedir i gestionar fitxers
+
+    Els fitxers existents tenen permisos restringits (protegits contra escriptura)
+
+    La carpeta té permisos correctes perquè el grup pugui treballar
 
 <img width="799" height="268" alt="image" src="https://github.com/user-attachments/assets/33eae41e-7cfe-43e4-9de5-0c4c1f4b1026" />
 
+Aqui estic comprovant els permisos de la carpeta **/var/palomes** amb diferents usuaris del grup:
+
+Com a deivi (grup paloma):
+
+    Puc entrar a la carpeta
+
+    Puc crear fitxers nous (ptl)
+
+Com a ferran (grup paloma):
+
+    Puc entrar i veure el contingut
+
+    Puc eliminar fitxers (demana confirmació)
+
+Confirmo que:
+
+    La carpeta té els permisos correctes per al grup
+
+    Tots els membres del grup poden crear i eliminar fitxers
+
+    Els fitxers estan protegits contra escriptura (per això demana confirmació)
 
 <img width="850" height="484" alt="image" src="https://github.com/user-attachments/assets/33590278-3746-46d0-87d3-90973b8b219c" />
 
+Aqui estic veient un problema amb els permisos de la carpeta **/var/palomes**:
+
+El que funciona:
+
+    deivi pot crear fitxers (ptlvaras)
+
+    ferran pot crear fitxers (ddd)
+
+    Tots dos poden accedir a la carpeta
+
+El problema:
+
+    ferran NO pot eliminar el fitxer ptlvaras de deivi
+
+    La carpeta mostra drwxrwx--T (el sticky bit T està actiu)
+
+La causa:
+
+El sticky bit (la T al final dels permisos) està activat. Això vol dir que:
+
+    Els usuaris només poden eliminar els seus propis fitxers
+
+    No poden eliminar fitxers d'altres usuaris, encara que siguin del mateix grup
 
 ## ACL
 
