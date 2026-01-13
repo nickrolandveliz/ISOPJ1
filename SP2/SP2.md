@@ -1094,3 +1094,14 @@ Finalment crearem un altre arxiu.
 <img width="663" height="112" alt="image" src="https://github.com/user-attachments/assets/d46cf1c8-81f8-4619-baf7-5132f7fd6230" />
 
 I aquest no se ha afegit ja que ens hem excedit.
+
+<img width="555" height="219" alt="image" src="https://github.com/user-attachments/assets/dd61b691-8636-4e5e-bca0-b7db4bfb08e0" />
+
+I si creo un altre arxiu ja no hem deixara.
+
+<img width="629" height="154" alt="image" src="https://github.com/user-attachments/assets/1a055305-684f-451c-be2c-49b1c0ef6869" />
+
+Amb aquesta comanda podem modificar els dies de gracia.
+
+<img width="714" height="174" alt="image" src="https://github.com/user-attachments/assets/aa9915c0-e8b1-4caf-8ca8-0460bd435074" />
+
