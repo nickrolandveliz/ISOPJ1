@@ -160,3 +160,5 @@ Ara modificariem i ficariem el seguent al fitxer **/usr/share/ligthdm/lightdm.co
 <img width="559" height="111" alt="image" src="https://github.com/user-attachments/assets/6a1dcfc2-ec1b-4108-84c9-953dd2b8415e" />
 
 Una vegada fet tot aixo, ja podriem surtir del nostre usuari, i iniciar per l'usuari nou que hem creat que es diu **alu1**.
+
+<img width="468" height="573" alt="image" src="https://github.com/user-attachments/assets/6622b21f-43f3-4dfb-9b2c-a1fd8196be19" />
