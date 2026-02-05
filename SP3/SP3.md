@@ -62,7 +62,25 @@ De moment no tenim elements (usuaris, grups, unitats organitzatives) però el do
 
 <img width="474" height="275" alt="image" src="https://github.com/user-attachments/assets/3d073a90-8fd4-4aa7-bfa3-af6a6c547c54" />
 
+Ara crearem una unitat organitzativa mitjançant un fitxer que ens descarregat, l'editarem per a que s'adapte als nostres parametres.
 
+<img width="520" height="147" alt="image" src="https://github.com/user-attachments/assets/56a1b938-a9ca-4e31-bf24-a42dbecb3883" />
+
+Per executar-lo utilitzarem aquesta comanda, que serveix per afegir contingut al servidor LDAP llegint-lo des d'un fitxer.
+
+**ldapadd:** És l'ordre principal per afegir entrades a la base de dades LDAP.
+
+**-c (continue):** Si troba un error (per exemple, si una entrada ja existeix), no s'atura; continua afegint la resta de coses del fitxer.
+
+**-x:** Utilitza autenticació simple (amb contrasenya normal), en lloc de xifrats complexos.
+
+**-D "cn=admin...":** És l'usuari amb qui t'identifiques per fer els canvis (el login). Aquí estàs entrant com a admin del domini nick.cat.
+
+**-W:** Et demana la contrasenya després de prémer Intro (per seguretat, perquè no quedi guardada a l'historial de comandes).
+
+**-f uo.ldif:** Indica el fitxer d'on ha de llegir les dades que vols afegir (en aquest cas, el fitxer uo.ldif).
+
+<img width="559" height="61" alt="image" src="https://github.com/user-attachments/assets/b86f4ea6-1103-4a17-9e9d-ff1a77cd4a4d" />
 
 
 
