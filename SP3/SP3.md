@@ -202,3 +202,35 @@ Una vegada fet tot aixo, ja podriem surtir del nostre usuari, i iniciar per l'us
 
 <img width="424" height="119" alt="image" src="https://github.com/user-attachments/assets/415a7a89-0d63-440c-bd44-d53e07249033" />
 
+
+## NFS
+
+
+### 1 exercici nfs sense ldap 
+
+<img width="803" height="238" alt="2026-02-10_12-50" src="https://github.com/user-attachments/assets/be38697b-61f7-43e2-b3f8-41886a244f46" />
+
+<img width="708" height="219" alt="2026-02-10_12-50_1" src="https://github.com/user-attachments/assets/48d5b0d9-8c9a-4982-8f5c-547c53d813ed" />
+
+<img width="632" height="180" alt="2026-02-10_12-53" src="https://github.com/user-attachments/assets/17215ed7-922b-4686-86b4-b7d49a086eef" />
+
+<img width="507" height="310" alt="2026-02-10_12-57" src="https://github.com/user-attachments/assets/8b0dc7a1-c06e-4bf5-971f-d58e9d3c5b20" />
+
+<img width="809" height="268" alt="2026-02-10_12-58" src="https://github.com/user-attachments/assets/9ea595ec-0125-4bf8-8b7c-56010b3f9131" />
+
+<img width="359" height="58" alt="2026-02-10_13-00" src="https://github.com/user-attachments/assets/3ce9553d-93d1-4404-9ddb-98e26fc5a809" />
+
+<img width="802" height="262" alt="2026-02-10_13-01" src="https://github.com/user-attachments/assets/defc13af-f667-4220-818f-1d943742b764" />
+
+
+<img width="642" height="178" alt="2026-02-10_13-03" src="https://github.com/user-attachments/assets/fa5ca1eb-1728-4cef-b7ff-c2292e3fa016" />
+
+<img width="597" height="198" alt="2026-02-10_13-09" src="https://github.com/user-attachments/assets/d37a100c-4231-4079-90b2-f2c0d5d33007" />
+
+<img width="623" height="204" alt="2026-02-10_13-10" src="https://github.com/user-attachments/assets/60cd3a43-a916-46f2-b0fe-5f8b8255d8a6" />
+
+<img width="917" height="356" alt="2026-02-10_13-23" src="https://github.com/user-attachments/assets/4d42a169-bb0f-4fae-85aa-221d550d09ef" />
+
+<img width="290" height="46" alt="2026-02-10_13-16_1" src="https://github.com/user-attachments/assets/2dfff157-33cb-47b2-a83e-ad2070582c8d" />
+
+<img width="336" height="70" alt="2026-02-10_13-20" src="https://github.com/user-attachments/assets/136d4a63-b6ea-44f0-b797-d207a753bbc9" />
