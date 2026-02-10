@@ -234,3 +234,17 @@ Una vegada fet tot aixo, ja podriem surtir del nostre usuari, i iniciar per l'us
 <img width="290" height="46" alt="2026-02-10_13-16_1" src="https://github.com/user-attachments/assets/2dfff157-33cb-47b2-a83e-ad2070582c8d" />
 
 <img width="336" height="70" alt="2026-02-10_13-20" src="https://github.com/user-attachments/assets/136d4a63-b6ea-44f0-b797-d207a753bbc9" />
+
+### 2 exercici
+
+<img width="413" height="156" alt="2026-02-10_13-51" src="https://github.com/user-attachments/assets/6a237ed6-da20-4b4b-935f-c8ae490b63ce" />
+
+<img width="508" height="324" alt="2026-02-10_13-53" src="https://github.com/user-attachments/assets/cda2076d-3900-4af4-9a52-47da22df2ed1" />
+
+<img width="917" height="369" alt="2026-02-10_13-57" src="https://github.com/user-attachments/assets/19bc5eff-9ec5-4346-9aea-c1071de95ff2" />
+
+<img width="290" height="92" alt="2026-02-10_13-58" src="https://github.com/user-attachments/assets/ce2d63b1-a10d-4530-9a0d-a42a65a86186" />
+
+<img width="572" height="387" alt="2026-02-10_14-01" src="https://github.com/user-attachments/assets/fc2b2906-963c-40c1-b0c9-ca329ae7abd9" />
+
+<img width="805" height="96" alt="2026-02-10_14-04" src="https://github.com/user-attachments/assets/d9122bd4-d208-4280-8436-1d45a32fdc75" />
