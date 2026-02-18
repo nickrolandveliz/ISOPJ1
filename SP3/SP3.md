@@ -248,3 +248,8 @@ Una vegada fet tot aixo, ja podriem surtir del nostre usuari, i iniciar per l'us
 <img width="572" height="387" alt="2026-02-10_14-01" src="https://github.com/user-attachments/assets/fc2b2906-963c-40c1-b0c9-ca329ae7abd9" />
 
 <img width="805" height="96" alt="2026-02-10_14-04" src="https://github.com/user-attachments/assets/d9122bd4-d208-4280-8436-1d45a32fdc75" />
+
+<img width="615" height="155" alt="2026-02-18_10-32" src="https://github.com/user-attachments/assets/79826dc5-79b1-4dfc-87dc-628452b0fc31" />
+
+<img width="524" height="67" alt="2026-02-18_10-32_1" src="https://github.com/user-attachments/assets/18da9858-f630-4765-b20d-4e8d89038a1d" />
+
