@@ -166,6 +166,9 @@ Una vegada fet tot aixo, ja podriem surtir del nostre usuari, i iniciar per l'us
 <img width="468" height="573" alt="image" src="https://github.com/user-attachments/assets/6622b21f-43f3-4dfb-9b2c-a1fd8196be19" />
 
 
+## Entorn grafic
+
+
 ## Servidor Samba
 
 <img width="703" height="155" alt="image" src="https://github.com/user-attachments/assets/3cbde56f-b1f3-4b70-b3eb-324d4d48ed76" />
