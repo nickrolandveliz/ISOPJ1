@@ -176,6 +176,177 @@ Per aquest apartat he utilitzat aquesta activitat.
 
 * Fes un dpkg-reconfigure slapd al servidor per tal de deixar la base de dades buida i només amb el domini l’usuari admin creat. Comprova-ho amb un slapcat.
 
+<img width="762" height="177" alt="2026-02-20_08-55" src="https://github.com/user-attachments/assets/400fae27-894c-4b4e-a29a-0faf500c713c" />
+
+<img width="505" height="306" alt="2026-02-20_08-57" src="https://github.com/user-attachments/assets/caf7e644-af67-4baa-9ab1-0f5a70df8026" />
+
+* Descarrega l'arxiu dades_pt10.ldif del moodle i amb la comanda ldapadd carrega els usuaris, grups i uos (Compte que el domini és vesper.cat, hauràs de modificar-lo pel teu)
+
+<img width="522" height="312" alt="2026-02-20_09-03" src="https://github.com/user-attachments/assets/128dff1e-5d9e-4ad1-902c-f9c534c5d87e" />
+
+I afegim el **.ldif** amb **ldapadd**.
+
+<img width="808" height="421" alt="2026-02-20_09-06" src="https://github.com/user-attachments/assets/16d6b624-a920-4ebd-bd1f-c2f9c4db43e2" />
+
+* Fes un altre slapcat per tal de comprovar que les dades s'han carregat correctament.
+
+<img width="508" height="530" alt="2026-02-20_09-09" src="https://github.com/user-attachments/assets/12e342aa-852d-43a9-8e5c-1e971f7f7163" />
+
+### Activitats
+
+* Quantes uos hi ha? **Hi ha 2 UO** Quants usuaris hi ha al domini? **Hi ha 3 usuaris**
+
+<img width="818" height="200" alt="2026-02-20_09-11" src="https://github.com/user-attachments/assets/0d7578bc-ebb0-4918-bb87-f073dc1e1e5b" />
+
+* Crea una nova uo anomenada asix
+
+<img width="809" height="181" alt="2026-02-20_09-13" src="https://github.com/user-attachments/assets/e5dd5039-ceac-4d64-9893-5e41f006814b" />
+
+* Esborra l’atribut roomnumber i homeDirectory de l’usuari ejohnson
+
+Amb aquest cas no existeix cap usuari **ejohnson** i cap dels usuaris te assignat roomNumber i homeDirectory per tant primer ho afegiré i despres ho esborraré.
+
+Com que l'usuari esta present no permet eliminar el homeDirectory pero si el seu roomNumber.
+
+<img width="532" height="125" alt="2026-02-20_10-30" src="https://github.com/user-attachments/assets/a6c8978e-2bf1-4914-a9b9-e182881f729f" />
+
+Aqui ja l'hauriem creat que es podria veure.
+
+<img width="504" height="491" alt="2026-02-20_10-33" src="https://github.com/user-attachments/assets/3d17e869-a38d-4608-8cd5-0657848129d3" />
+
+Executariem la seguent comanda.
+
+<img width="767" height="86" alt="2026-02-20_10-31" src="https://github.com/user-attachments/assets/0e0be5b2-0f41-4c7e-b91c-464dcb0de0c7" />
+
+I ja s'hauria esborrat.
+
+<img width="509" height="466" alt="2026-02-20_10-33_1" src="https://github.com/user-attachments/assets/f394b8ef-4149-40c8-9421-b94756cf9c7c" />
+
+
+* L’usuari kvaughan en quants grups el trobem com a uniqueMember i quins són?
+
+Utilitzant l’usuari xavier com a substitut de kvaughan:
+
+Nombre de grups: 1
+
+Grups on apareix com a memberUid: informatica
+
+<img width="790" height="93" alt="2026-02-20_10-36" src="https://github.com/user-attachments/assets/287b4384-6da7-44c3-8968-ad0c114d59d3" />
+
+* Trau de la uo People a 3 usuaris i afegeix-los a la uo asix
+
+Aquest seria el fitxer que he creat.
+
+<img width="527" height="405" alt="2026-02-20_10-52" src="https://github.com/user-attachments/assets/06204ee9-fd6d-49c6-a4eb-aaad367cb923" />
+
+Amb la seva comanda per executar-lo.
+
+<img width="773" height="178" alt="2026-02-20_10-52_1" src="https://github.com/user-attachments/assets/05280bc2-649a-4bea-b107-289f68999d07" />
+
+Comprovacio:
+
+<img width="504" height="464" alt="2026-02-20_10-55" src="https://github.com/user-attachments/assets/2781f875-988f-4e7a-9401-e4811f470774" />
+
+* Quants grups hi ha dintre de la uo Groups?
+
+Amb aquest cas 0
+
+<img width="787" height="94" alt="2026-02-20_13-16" src="https://github.com/user-attachments/assets/1650532b-4e81-4738-937c-c7a13c497e38" />
+
+* Esborra la uo People
+
+En aquest cas esborraria la "uo" de "rrhh" ja que la de "People" no existeix.
+
+<img width="774" height="71" alt="2026-02-20_13-24" src="https://github.com/user-attachments/assets/47bf9f35-5ef7-4751-ba71-15bf04f74061" />
+
+* Modifica el uid de l’usuari hmiller a hamiller
+
+Com que el usuari hamiller no exiteix ho faré amb l'usuari xavier, amb aquest fitxer.
+
+<img width="528" height="115" alt="2026-02-20_13-26" src="https://github.com/user-attachments/assets/079f0cfa-3ad1-417e-bce4-eb1ebe8346b9" />
+
+I aquesta comanda.
+
+<img width="778" height="96" alt="2026-02-20_13-27" src="https://github.com/user-attachments/assets/72ec3db5-033a-4bbd-9109-11429d887d76" />
+
+Comprovació:
+
+<img width="507" height="467" alt="2026-02-20_13-27_1" src="https://github.com/user-attachments/assets/747d973b-e62f-4df3-b888-e10ba0f1ecef" />
+
+
+* Crea un nou usuari amb dos atributs opcionals per a  la classe posixAccount, ho fare amb aquest fitxer.
+
+<img width="512" height="373" alt="2026-02-20_13-30" src="https://github.com/user-attachments/assets/e21f32e7-1016-4b56-bef3-a816428498e0" />
+
+Comanda:
+
+<img width="776" height="87" alt="2026-02-20_13-30_1" src="https://github.com/user-attachments/assets/182df6d1-c05a-4888-a471-e64e16e1f2c8" />
+
+* Afegeix un parell més d’opcionals a l’usuari anterior
+
+<img width="509" height="181" alt="2026-02-20_13-32" src="https://github.com/user-attachments/assets/f351ba9f-a495-4d43-8934-d4c12a8d6626" />
+
+Comanda:
+
+<img width="772" height="90" alt="2026-02-20_13-32_1" src="https://github.com/user-attachments/assets/35924df9-7f1e-49bb-88bc-245c2ee14436" />
+
+* Modifica el mail de l’usuari jburrell per jburrell@gmail.com
+
+Com que el usuari jburrell no existeix ho he fet amb ramon.
+
+<img width="497" height="115" alt="2026-02-20_13-34" src="https://github.com/user-attachments/assets/e875b1da-b991-4fe5-a4a2-9f47b2da16bf" />
+
+Comanda:
+
+<img width="778" height="88" alt="2026-02-20_13-34_1" src="https://github.com/user-attachments/assets/2d58fe02-fa0b-4513-8861-f3adf4f2221c" />
+
+Comprovació:
+
+<img width="277" height="72" alt="2026-02-20_13-35" src="https://github.com/user-attachments/assets/bf626264-87a0-40f8-816d-455d4a8f7d70" />
+
+* Crea un nou grup dintre de la uo Groups i afegeix 3 usuaris
+
+Com que prèviament he mostrat que no existeix la UO Groups ho faré sobre la de asix.
+
+<img width="514" height="202" alt="2026-02-20_13-36" src="https://github.com/user-attachments/assets/f8194083-3222-4dc3-b982-3e57224f9294" />
+
+Comanda:
+
+<img width="780" height="89" alt="2026-02-20_13-36_1" src="https://github.com/user-attachments/assets/a81e19c8-ab5b-4af7-8678-256c3f763588" />
+
+Comprovació:
+
+<img width="787" height="391" alt="2026-02-20_13-38" src="https://github.com/user-attachments/assets/0e9fbfbb-22ec-4fef-b080-bb715d847ca3" />
+
+* Treu del grup creat anteriorment a un usuari
+
+<img width="533" height="109" alt="2026-02-20_13-39" src="https://github.com/user-attachments/assets/93ca45c3-0a10-44ec-9774-cc6f98bf2f06" />
+
+Comanda:
+
+<img width="781" height="96" alt="2026-02-20_13-40" src="https://github.com/user-attachments/assets/d2751a0c-4a96-43f9-9ace-2ae59cf5830f" />
+
+* Mostra tots els usuaris de la uo Asix que el seu uid comenci per la lletra x i formin part també de la uo Recursos Humans
+
+<img width="783" height="108" alt="2026-02-20_13-40_1" src="https://github.com/user-attachments/assets/49e827cd-3a63-4a5a-8736-4abdac833e28" />
+
+* Mostra tots els usuaris del domini on el seu uidNumber estigui entre 1010 i 1030 (inclosos). Quants en son?
+
+<img width="788" height="119" alt="2026-02-20_13-42" src="https://github.com/user-attachments/assets/96f7d159-bd9d-4d80-897b-9bab8deeed92" />
+
+* Usuaris on el seu telèfon acabi en un 2 o el seu cognom en una n. Quants?
+
+Amb aquest cas son 0 usuaris.
+
+<img width="776" height="71" alt="2026-02-20_13-42_1" src="https://github.com/user-attachments/assets/48a7c46b-4072-4898-ab7d-04fa69412a53" />
+
+* D’un sol cop, a l’usuari que tu vulguis, esborra un atribut, afegeix-ne un altre i modifica un tercer.
+
+<img width="515" height="314" alt="2026-02-20_13-44" src="https://github.com/user-attachments/assets/75c71516-cbc6-49dc-a78e-7ef9cce7eae9" />
+
+Comprovació:
+
+<img width="776" height="89" alt="2026-02-20_13-45" src="https://github.com/user-attachments/assets/c2e3a892-d6e1-4f27-95ef-692d83c12361" />
 
 
 ## Entorn grafic
