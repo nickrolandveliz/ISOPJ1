@@ -166,6 +166,18 @@ Una vegada fet tot aixo, ja podriem surtir del nostre usuari, i iniciar per l'us
 <img width="468" height="573" alt="image" src="https://github.com/user-attachments/assets/6622b21f-43f3-4dfb-9b2c-a1fd8196be19" />
 
 
+## Gestió del domini mitjançant comandes
+
+Per aquest apartat he utilitzat aquesta activitat.
+
+<img width="736" height="495" alt="Captura de pantalla de 2026-02-20 08-44-06" src="https://github.com/user-attachments/assets/5f834da8-86e0-400e-b672-c7db03dc4d4b" />
+
+### Requisits previs
+
+* Fes un dpkg-reconfigure slapd al servidor per tal de deixar la base de dades buida i només amb el domini l’usuari admin creat. Comprova-ho amb un slapcat.
+
+
+
 ## Entorn grafic
 
 <img width="733" height="196" alt="2026-02-18_17-21" src="https://github.com/user-attachments/assets/2e67a43a-7ae1-421d-9c12-90c343c3a69c" />
