@@ -394,7 +394,7 @@ I aquí farem clic amb aquest opció.
 
 <img width="621" height="353" alt="2026-02-18_18-00" src="https://github.com/user-attachments/assets/f7f2eaee-9f3b-472a-adcd-c57aaa0c7a56" />
 
-I ja estem dins com a l'usuari LAM. Aquí ficarem la nostra configuració LDAP.
+I ja estem dins com a l'usuari LAM.
 
 <img width="816" height="477" alt="2026-02-18_18-04" src="https://github.com/user-attachments/assets/157aa314-e1d0-45d0-b1b8-b30798c30442" />
 
@@ -410,25 +410,27 @@ Ara ja podem iniciar sessió amb el usuari admin del nostre domini LDAP.
 
 <img width="389" height="312" alt="2026-02-18_18-18" src="https://github.com/user-attachments/assets/6b005c3f-aff0-49b6-8b59-2929a11b307f" />
 
+Per aqui ja podem veure els usuaris que tenim creats.
+
+<img width="1073" height="545" alt="2026-02-18_18-18_1" src="https://github.com/user-attachments/assets/cc7177d7-9757-4061-8fb3-2dece95f9b86" />
+
 ### Creació de una nova OU
 
 Per a la creació d'una nova OU primerament hem d'anar a **"Tools"** i **"OU Editor"**.
 
-<img width="1073" height="545" alt="2026-02-18_18-18_1" src="https://github.com/user-attachments/assets/cc7177d7-9757-4061-8fb3-2dece95f9b86" />
+<img width="356" height="236" alt="2026-02-18_18-20" src="https://github.com/user-attachments/assets/f71694c9-d757-46cf-a677-24a63484e4ae" />
 
 Aquí fiquem el nom de com volem que es digui aquesta OU.
 
-<img width="356" height="236" alt="2026-02-18_18-20" src="https://github.com/user-attachments/assets/f71694c9-d757-46cf-a677-24a63484e4ae" />
+<img width="1015" height="209" alt="2026-02-18_18-20_1" src="https://github.com/user-attachments/assets/76341059-402a-41f2-ae37-33f436ec313d" />
 
 I fem OK. I ja la tenim creada.
 
-<img width="1015" height="209" alt="2026-02-18_18-20_1" src="https://github.com/user-attachments/assets/76341059-402a-41f2-ae37-33f436ec313d" />
+<img width="344" height="152" alt="2026-02-18_18-21" src="https://github.com/user-attachments/assets/5590605c-da92-4c54-925f-4cc3d6ab326c" />
 
 ### Creació d'un nou grup
 
 Per a crear un nou grup primerament hem d'anar a **"Accounts"** i **"Groups"**.
-
-<img width="344" height="152" alt="2026-02-18_18-21" src="https://github.com/user-attachments/assets/5590605c-da92-4c54-925f-4cc3d6ab326c" />
 
 <img width="449" height="130" alt="2026-02-18_18-21_1" src="https://github.com/user-attachments/assets/38fe7d4a-8637-4a21-a180-386ae6089c67" />
 
