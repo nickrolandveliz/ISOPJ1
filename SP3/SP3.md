@@ -501,6 +501,7 @@ Primerament, procedirem a la creació del directori que volem compartir i n'ajus
 <img width="604" height="202" alt="image" src="https://github.com/user-attachments/assets/1cebacd2-3e71-4a7e-ac6f-711db3fe35f0" />
 
 Despres fare la creació d'usuaris i grups per realitzar les proves.
+
 <img width="562" height="304" alt="image" src="https://github.com/user-attachments/assets/40433e5a-d777-442a-b67e-a162f2970699" />
 
 I a cada usuari he assignat la seva contrasenya.
@@ -522,6 +523,7 @@ Accedim al client, que es troba a la mateixa xarxa, com he comprovat amb el ping
 <img width="627" height="247" alt="image" src="https://github.com/user-attachments/assets/6b247cf5-9c9b-4c71-bb17-37fcdc317169" />
 
 El paquet a instal·lar es **smbclient**.
+
 <img width="607" height="154" alt="image" src="https://github.com/user-attachments/assets/7e04ced9-4fbf-4d32-86dd-8be3c7b87685" />
 
 I ja podem connectar-mos mitjançant el navegador de fitxers.
@@ -529,9 +531,11 @@ I ja podem connectar-mos mitjançant el navegador de fitxers.
 <img width="443" height="44" alt="image" src="https://github.com/user-attachments/assets/b119e755-1af1-4368-80b5-5e2c511e6df2" />
 
 Per comemzat entrarem amb l'usuari anonim.
+
 <img width="463" height="437" alt="image" src="https://github.com/user-attachments/assets/fb849993-4bf2-4554-b008-bb6d308d19d8" />
 
 Crearem una carpeta "anonim".
+
 <img width="436" height="127" alt="image" src="https://github.com/user-attachments/assets/589511c5-4f21-4a4c-bc69-024c098bc898" />
 
 I veiem que es crea perfectament.
