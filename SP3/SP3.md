@@ -500,37 +500,67 @@ Primerament, procedirem a la creació del directori que volem compartir i n'ajus
 
 <img width="604" height="202" alt="image" src="https://github.com/user-attachments/assets/1cebacd2-3e71-4a7e-ac6f-711db3fe35f0" />
 
+Despres fare la creació d'usuaris i grups per realitzar les proves.
 <img width="562" height="304" alt="image" src="https://github.com/user-attachments/assets/40433e5a-d777-442a-b67e-a162f2970699" />
+
+I a cada usuari he assignat la seva contrasenya.
 
 <img width="333" height="292" alt="image" src="https://github.com/user-attachments/assets/732d6887-6da7-4272-8e70-b8f8a5960f74" />
 
+Procedire a l'edició del fitxer smb.conf per afegir-hi la declaració del recurs compartit. Això inclou configurar els paràmetres necessaris perquè el directori sigui visible i accessible des de la xarxa per als clients autoritzats.
+
 <img width="494" height="377" alt="image" src="https://github.com/user-attachments/assets/ebdfe297-c9ca-491a-bcc8-95adc2d3c96f" />
+
+Per tal que els canvis realitzats en el fitxer de configuració s'apliquin correctamente, caldrà reiniciar el servei de Samba. Això permetrà que el sistema carregui la nova definició del recurs compartit."
 
 <img width="697" height="393" alt="image" src="https://github.com/user-attachments/assets/b237032d-2590-45d2-bf9f-0655f9bb4984" />
 
+## Configuració client smb
+
+Accedim al client, que es troba a la mateixa xarxa, com he comprovat amb el ping
+
 <img width="627" height="247" alt="image" src="https://github.com/user-attachments/assets/6b247cf5-9c9b-4c71-bb17-37fcdc317169" />
 
+El paquet a instal·lar es **smbclient**.
 <img width="607" height="154" alt="image" src="https://github.com/user-attachments/assets/7e04ced9-4fbf-4d32-86dd-8be3c7b87685" />
 
+I ja podem connectar-mos mitjançant el navegador de fitxers.
+
+<img width="443" height="44" alt="image" src="https://github.com/user-attachments/assets/b119e755-1af1-4368-80b5-5e2c511e6df2" />
+
+Per comemzat entrarem amb l'usuari anonim.
 <img width="463" height="437" alt="image" src="https://github.com/user-attachments/assets/fb849993-4bf2-4554-b008-bb6d308d19d8" />
 
+Crearem una carpeta "anonim".
 <img width="436" height="127" alt="image" src="https://github.com/user-attachments/assets/589511c5-4f21-4a4c-bc69-024c098bc898" />
+
+I veiem que es crea perfectament.
 
 <img width="251" height="142" alt="image" src="https://github.com/user-attachments/assets/4cca0f9a-53ee-43a5-ad3b-f5f88feaa2da" />
 
+Surtirem. 
+
 <img width="261" height="260" alt="image" src="https://github.com/user-attachments/assets/9e3a2c98-11de-41e3-85c5-25ae746493a2" />
+
+I tornarem a entrar amb l'usuari "naim".
 
 <img width="469" height="429" alt="image" src="https://github.com/user-attachments/assets/d43f61a2-0339-4dac-9c7e-8bb924459bd7" />
 
+Creem carpeta.
+
 <img width="433" height="113" alt="image" src="https://github.com/user-attachments/assets/6ee1f356-c671-4e98-86ff-f3dce4145ac3" />
+
+I es crea sense cap problema.
 
 <img width="240" height="140" alt="image" src="https://github.com/user-attachments/assets/4d0112ca-4f97-4c38-a86e-779daf2f0748" />
 
+Ara provarem amb l'usuari "eros".
+
 <img width="466" height="429" alt="image" src="https://github.com/user-attachments/assets/457724ab-ef5e-4057-965a-aa287b3b732d" />
 
-<img width="424" height="119" alt="image" src="https://github.com/user-attachments/assets/415a7a89-0d63-440c-bd44-d53e07249033" />
+I podem veure que amb aquest usuari, no es pot crear cap carpeta.
 
-<img width="600" height="100" alt="image" src="https://github.com/user-attachments/assets/c087c19b-30f5-4d34-a184-9b1ab245368f" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/c087c19b-30f5-4d34-a184-9b1ab245368f" />
 
 
 ## NFS
