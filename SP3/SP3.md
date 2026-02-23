@@ -530,7 +530,7 @@ Primerament, procedirem a la creació del directori que volem compartir i n'ajus
 
 <img width="424" height="119" alt="image" src="https://github.com/user-attachments/assets/415a7a89-0d63-440c-bd44-d53e07249033" />
 
-<img width="1024" height="402" alt="image" src="https://github.com/user-attachments/assets/c087c19b-30f5-4d34-a184-9b1ab245368f" />
+<img width="600" height="100" alt="image" src="https://github.com/user-attachments/assets/c087c19b-30f5-4d34-a184-9b1ab245368f" />
 
 
 ## NFS
