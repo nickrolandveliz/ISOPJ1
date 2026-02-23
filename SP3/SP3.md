@@ -351,61 +351,138 @@ Comprovació:
 
 ## Entorn grafic
 
+Per a configurar LDAP en un entorn gràfic tenim moltes opcions com ara:
+
+* phpldapadmin
+* apache directory stdio
+* jxplorer
+* ldap account manager (LAM)
+
+Amb aquest cas he escollit LAM ja que em sembla molt fàcil d'utilitzar i molt intuitiu.
+
+### Requeriments Prèvis
+
+Primerament hem d'instalar tots aquests paquets ja que LAM utilitza php i hem d'instalar tots els seus requeriments per al seu funcionament.
+
+
 <img width="733" height="196" alt="2026-02-18_17-21" src="https://github.com/user-attachments/assets/2e67a43a-7ae1-421d-9c12-90c343c3a69c" />
+
+I ara descarregaré el binari **.deb**.
 
 <img width="734" height="134" alt="2026-02-18_17-23" src="https://github.com/user-attachments/assets/4f8f4c3b-7e2f-4b3d-ab51-56dd18ea5d0a" />
 
 <img width="735" height="131" alt="2026-02-18_17-24" src="https://github.com/user-attachments/assets/cf3658e4-0da9-4c6f-b9ff-3510e2f024fd" />
 
+
+## Configuració del entorn gràfic
+
+Un cop ja instal·lat podem accedir via la IP al directori **/lam**. Aqui ficarem una contrasenya per entrar al panel administratiu. I una vegada ficada ja estem aquí dins per poder gestionar el **LDAP**.
+
 <img width="693" height="401" alt="2026-02-18_17-27" src="https://github.com/user-attachments/assets/ecbd687c-afe4-442e-af19-12fdb5106fde" />
+
+Ara quan guardesim ens "expulsará" i ens fará iniciar sessió.
 
 <img width="791" height="527" alt="2026-02-18_17-41" src="https://github.com/user-attachments/assets/105f0a65-aa52-4feb-9230-21765132fabb" />
 
+Ara hem de crear un usuari per a la gestió d'aquest per tant anirem a **"Edit Server Profiles"**.
+
 <img width="440" height="338" alt="2026-02-18_17-42" src="https://github.com/user-attachments/assets/c78f32b8-1756-4669-bebc-466c336f6554" />
+
+I aquí farem clic amb aquest opció.
 
 <img width="787" height="455" alt="2026-02-18_17-42_1" src="https://github.com/user-attachments/assets/1cf79ab5-4dca-4981-885a-95744a8505cd" />
 
+I ja estem dins com a l'usuari LAM.
+
 <img width="621" height="353" alt="2026-02-18_18-00" src="https://github.com/user-attachments/assets/f7f2eaee-9f3b-472a-adcd-c57aaa0c7a56" />
+
+Aquí ficarem la nostra configuració LDAP.
 
 <img width="816" height="477" alt="2026-02-18_18-04" src="https://github.com/user-attachments/assets/157aa314-e1d0-45d0-b1b8-b30798c30442" />
 
+També haurem de anar al **Account Types** i canviar aquesta configuració d'aquí.
+
 <img width="700" height="267" alt="2026-02-18_18-06" src="https://github.com/user-attachments/assets/9f9a40db-6f54-4ff1-ad7d-7fe0878d9f7c" />
+
+Ara ja podem iniciar sessió amb el usuari admin del nostre domini LDAP.
 
 <img width="826" height="368" alt="2026-02-18_18-11" src="https://github.com/user-attachments/assets/2900ac29-6e4e-4c2e-8b69-0d84b6ab9ea0" />
 
+Per aquí ja podem veure els usuaris que tenim creats.
+
 <img width="389" height="312" alt="2026-02-18_18-18" src="https://github.com/user-attachments/assets/6b005c3f-aff0-49b6-8b59-2929a11b307f" />
+
+### Creació de una nova OU
+
+Per a la creació d'una nova OU primerament hem d'anar a **"Tools"** i **"OU Editor"**.
 
 <img width="1073" height="545" alt="2026-02-18_18-18_1" src="https://github.com/user-attachments/assets/cc7177d7-9757-4061-8fb3-2dece95f9b86" />
 
+Aquí fiquem el nom de com volem que es digui aquesta OU.
+
 <img width="356" height="236" alt="2026-02-18_18-20" src="https://github.com/user-attachments/assets/f71694c9-d757-46cf-a677-24a63484e4ae" />
 
+I fem OK. I ja la tenim creada.
+
 <img width="1015" height="209" alt="2026-02-18_18-20_1" src="https://github.com/user-attachments/assets/76341059-402a-41f2-ae37-33f436ec313d" />
+
+### Creació d'un nou grup
+
+Per a crear un nou grup primerament hem d'anar a **"Accounts"** i **"Groups"**.
 
 <img width="344" height="152" alt="2026-02-18_18-21" src="https://github.com/user-attachments/assets/5590605c-da92-4c54-925f-4cc3d6ab326c" />
 
 <img width="449" height="130" alt="2026-02-18_18-21_1" src="https://github.com/user-attachments/assets/38fe7d4a-8637-4a21-a180-386ae6089c67" />
 
+Una vegada aquí anirem a **"New Group"**.
+
 <img width="549" height="320" alt="2026-02-18_18-22_1" src="https://github.com/user-attachments/assets/af0a0b76-c244-42b9-9b14-3c372b5a19d5" />
+
+I finalment crearem el grup, amb aquest cas li fiquem un nom i un UID.
 
 <img width="905" height="269" alt="2026-02-18_18-30" src="https://github.com/user-attachments/assets/2364fdff-a0e6-46cf-88d0-6174f670778a" />
 
+I s'ha creat correctament el grup.
+
 <img width="715" height="171" alt="2026-02-18_18-31" src="https://github.com/user-attachments/assets/2ba32186-af59-4d43-b134-a955fb8fe001" />
+
+Comprovació:
 
 <img width="889" height="341" alt="2026-02-18_18-31_1" src="https://github.com/user-attachments/assets/9e0e1286-b179-408d-8bd6-ce75bc0b177f" />
 
+### Creació d'un nou usuari
+
+Per a crear un nou usuari primerament hem d'anar a **"Accounts"** i després a **"Users"**.
+
 <img width="298" height="66" alt="2026-02-18_18-32" src="https://github.com/user-attachments/assets/4df0d191-0c57-4d8e-b335-8407ca67ad4f" />
+
+Aquí anirem a **"New User"**.
 
 <img width="848" height="426" alt="2026-02-18_18-32_1" src="https://github.com/user-attachments/assets/dff5a5c2-0367-4f98-99d8-59748dfe6eb1" />
 
+Un cop aquí pasarem a la gestió personal.
+
 <img width="809" height="285" alt="2026-02-18_18-34" src="https://github.com/user-attachments/assets/0d47e2ab-0aed-4c68-8976-13811276b2e5" />
+
+I ara la gestió UNIX.
 
 <img width="811" height="276" alt="2026-02-18_18-35" src="https://github.com/user-attachments/assets/49aba089-4f8a-438e-8c74-1917f0f6f710" />
 
+Finalment podem ficarli una contrasenya de la següent manera.
+
 <img width="1082" height="355" alt="2026-02-18_18-36" src="https://github.com/user-attachments/assets/10285577-8690-4372-a351-9efe85094e08" />
+
+I ja tenim el usuari creat correctament.
 
 <img width="683" height="423" alt="2026-02-18_18-37" src="https://github.com/user-attachments/assets/3ea00955-bde9-4848-8651-89fa37c525d4" />
 
+Verificació:
+
 <img width="676" height="155" alt="2026-02-18_18-38" src="https://github.com/user-attachments/assets/1240daec-b4d5-4e44-bd81-d1d9c69e44b4" />
+
+### Accedir desde el client amb aquest nou usuari creat
+
+Per fer-ho he obert el client i he accedit via GUI per comprovar he executat la comanda `id`.
 
 <img width="856" height="456" alt="2026-02-18_18-38_1" src="https://github.com/user-attachments/assets/790f3576-958d-4aeb-8401-3b505e829020" />
 
