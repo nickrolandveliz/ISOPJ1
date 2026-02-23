@@ -490,7 +490,13 @@ Per fer-ho he obert el client i he accedit via GUI per comprovar he executat la 
 
 ## Servidor Samba
 
+Finalment, configurarem Samba per permetre l'accés a recursos compartits amb autenticació LDAP o local.
+
+Primer instal·lem el paquet `samba`.
+
 <img width="703" height="155" alt="image" src="https://github.com/user-attachments/assets/3cbde56f-b1f3-4b70-b3eb-324d4d48ed76" />
+
+Primerament, procedirem a la creació del directori que volem compartir i n'ajustarem els permisos i la propietat. Definirem l'usuari i el grup corresponents per garantir que només els membres autoritzats tinguin accés al recurs compartit.
 
 <img width="604" height="202" alt="image" src="https://github.com/user-attachments/assets/1cebacd2-3e71-4a7e-ac6f-711db3fe35f0" />
 
@@ -523,6 +529,8 @@ Per fer-ho he obert el client i he accedit via GUI per comprovar he executat la 
 <img width="466" height="429" alt="image" src="https://github.com/user-attachments/assets/457724ab-ef5e-4057-965a-aa287b3b732d" />
 
 <img width="424" height="119" alt="image" src="https://github.com/user-attachments/assets/415a7a89-0d63-440c-bd44-d53e07249033" />
+
+<img width="1024" height="402" alt="image" src="https://github.com/user-attachments/assets/c087c19b-30f5-4d34-a184-9b1ab245368f" />
 
 
 ## NFS
