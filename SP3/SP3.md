@@ -462,29 +462,27 @@ Aquí anirem a **"New User"**.
 
 Un cop aquí pasarem a la gestió personal.
 
-<img width="809" height="285" alt="2026-02-18_18-34" src="https://github.com/user-attachments/assets/0d47e2ab-0aed-4c68-8976-13811276b2e5" />
+<img width="811" height="276" alt="2026-02-18_18-35" src="https://github.com/user-attachments/assets/49aba089-4f8a-438e-8c74-1917f0f6f710" />
 
 I ara la gestió UNIX.
 
-<img width="811" height="276" alt="2026-02-18_18-35" src="https://github.com/user-attachments/assets/49aba089-4f8a-438e-8c74-1917f0f6f710" />
+<img width="1082" height="355" alt="2026-02-18_18-36" src="https://github.com/user-attachments/assets/10285577-8690-4372-a351-9efe85094e08" />
 
 Finalment podem ficarli una contrasenya de la següent manera.
 
-<img width="1082" height="355" alt="2026-02-18_18-36" src="https://github.com/user-attachments/assets/10285577-8690-4372-a351-9efe85094e08" />
+<img width="683" height="423" alt="2026-02-18_18-37" src="https://github.com/user-attachments/assets/3ea00955-bde9-4848-8651-89fa37c525d4" />
 
 I ja tenim el usuari creat correctament.
 
-<img width="683" height="423" alt="2026-02-18_18-37" src="https://github.com/user-attachments/assets/3ea00955-bde9-4848-8651-89fa37c525d4" />
+<img width="676" height="155" alt="2026-02-18_18-38" src="https://github.com/user-attachments/assets/1240daec-b4d5-4e44-bd81-d1d9c69e44b4" />
 
 Verificació:
 
-<img width="676" height="155" alt="2026-02-18_18-38" src="https://github.com/user-attachments/assets/1240daec-b4d5-4e44-bd81-d1d9c69e44b4" />
+<img width="856" height="456" alt="2026-02-18_18-38_1" src="https://github.com/user-attachments/assets/790f3576-958d-4aeb-8401-3b505e829020" />
 
 ### Accedir desde el client amb aquest nou usuari creat
 
 Per fer-ho he obert el client i he accedit via GUI per comprovar he executat la comanda `id`.
-
-<img width="856" height="456" alt="2026-02-18_18-38_1" src="https://github.com/user-attachments/assets/790f3576-958d-4aeb-8401-3b505e829020" />
 
 <img width="512" height="67" alt="2026-02-18_18-41" src="https://github.com/user-attachments/assets/151d46b3-81bd-4ae1-acb2-98e6223bee15" />
 
