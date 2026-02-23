@@ -384,7 +384,7 @@ Ara quan guardesim ens "expulsará" i ens fará iniciar sessió.
 
 <img width="791" height="527" alt="2026-02-18_17-41" src="https://github.com/user-attachments/assets/105f0a65-aa52-4feb-9230-21765132fabb" />
 
-Ara hem de crear un usuari per a la gestió d'aquest per tant anirem a **"Edit Server Profiles"**.
+Ara hem de crear un usuari per a la gestió d'aquest per tant anirem a **"Editar perfiles del servidor"**.
 
 <img width="440" height="338" alt="2026-02-18_17-42" src="https://github.com/user-attachments/assets/c78f32b8-1756-4669-bebc-466c336f6554" />
 
@@ -392,23 +392,21 @@ I aquí farem clic amb aquest opció.
 
 <img width="787" height="455" alt="2026-02-18_17-42_1" src="https://github.com/user-attachments/assets/1cf79ab5-4dca-4981-885a-95744a8505cd" />
 
-I ja estem dins com a l'usuari LAM.
-
 <img width="621" height="353" alt="2026-02-18_18-00" src="https://github.com/user-attachments/assets/f7f2eaee-9f3b-472a-adcd-c57aaa0c7a56" />
 
-Aquí ficarem la nostra configuració LDAP.
+I ja estem dins com a l'usuari LAM. Aquí ficarem la nostra configuració LDAP.
 
 <img width="816" height="477" alt="2026-02-18_18-04" src="https://github.com/user-attachments/assets/157aa314-e1d0-45d0-b1b8-b30798c30442" />
 
-També haurem de anar al **Account Types** i canviar aquesta configuració d'aquí.
+Aquí ficarem la nostra configuració LDAP.
 
 <img width="700" height="267" alt="2026-02-18_18-06" src="https://github.com/user-attachments/assets/9f9a40db-6f54-4ff1-ad7d-7fe0878d9f7c" />
 
-Ara ja podem iniciar sessió amb el usuari admin del nostre domini LDAP.
+També haurem de anar al **Account Types** i canviar aquesta configuració d'aquí.
 
 <img width="826" height="368" alt="2026-02-18_18-11" src="https://github.com/user-attachments/assets/2900ac29-6e4e-4c2e-8b69-0d84b6ab9ea0" />
 
-Per aquí ja podem veure els usuaris que tenim creats.
+Ara ja podem iniciar sessió amb el usuari admin del nostre domini LDAP.
 
 <img width="389" height="312" alt="2026-02-18_18-18" src="https://github.com/user-attachments/assets/6b005c3f-aff0-49b6-8b59-2929a11b307f" />
 
