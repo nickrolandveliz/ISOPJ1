@@ -569,7 +569,6 @@ I podem veure que amb aquest usuari, no es pot crear cap carpeta.
 
 ## NFS
 
-
 ### 1 exercici nfs sense ldap 
 
 En aquest apartat configurarem un servidor NFS per compartir directoris amb un client, sense utilitzar autenticació LDAP inicialment.
@@ -620,7 +619,7 @@ Finalment, podem reiniciar el client o fer un `mount -a` per comprovar que el re
 
 <img width="336" height="70" alt="2026-02-10_13-20" src="https://github.com/user-attachments/assets/136d4a63-b6ea-44f0-b797-d207a753bbc9" />
 
-### 2 exercici
+### NFS amb LDAP
 
 Primerament al nostre servidor prepararem el directori.
 
