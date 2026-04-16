@@ -360,7 +360,7 @@ description      Windows 11
 
 ## Pas 32 – Comandes interessants (avançades)
 
-* `tree` → Mostra l'estructura de carpetes en forma d'arbre des del directori actual. En aquest cas mostra totes les subcarpetes de l'usuari Eros com `Desktop`, `Documents`, `Downloads`, `prova`, etc.
+* `tree` → Mostra l'estructura de carpetes en forma d'arbre des del directori actual. En aquest cas mostra totes les subcarpetes de l'usuari nicksist com `Desktop`, `Documents`, `Downloads`, `prova`, etc.
 
 <img width="310" height="298" alt="46" src="https://github.com/user-attachments/assets/5669036b-bbde-4a39-9138-cd2116a9a915" />
 
@@ -399,7 +399,7 @@ description      Windows 11
 
 <img width="589" height="459" alt="51" src="https://github.com/user-attachments/assets/d6596886-2277-43e2-b9f0-526790578ae7" />
 
-* Confirmo la **carpeta de destinació** on s'instal·larà VS Code: `C:\Users\Eros\AppData\Local\Programs\Microsoft VS Code` (requereix mínim 576,5 MB).
+* Confirmo la **carpeta de destinació** on s'instal·larà VS Code: `C:\Users\nicksist\AppData\Local\Programs\Microsoft VS Code` (requereix mínim 576,5 MB).
 
 <img width="587" height="208" alt="52" src="https://github.com/user-attachments/assets/2269871a-4e1d-4f3b-b9c2-412f64091f50" />
 
