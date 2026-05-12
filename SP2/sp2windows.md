@@ -8,7 +8,7 @@
 
 Per ampliar l'emmagatzematge de la màquina virtual cal afegir un nou disc des de la configuració de VirtualBox. Accedim a **Configuració → Emmagatzematge** de la màquina virtual "Windows 10 Pro". Fem clic a la icona per afegir un nou disc dur virtual i seleccionem **Crea un nou disc**.
 
-En aquesta captura podem veure que s'ha creat el fitxer `Projecte 2 SP1_1` (el segon disc), amb una mida virtual de **5,00 GB** i format **VDI (Normal)**. Apareix connectat al controlador SATA al port SATA 2, just a sota del disc principal del sistema.
+En aquesta captura podem veure que s'ha creat el fitxer `sistemesw10_1` (el segon disc), amb una mida virtual de **5,00 GB** i format **VDI (Normal)**. Apareix connectat al controlador SATA al port SATA 2, just a sota del disc principal del sistema.
 
 > 💡 Un disc VDI d'ubicació dinàmica ocupa molt poc espai real al host fins que s'hi escriu informació.
 
@@ -201,7 +201,7 @@ La captura mostra clarament com el sistema **nega l'accés** quan l'usuari inten
 
 ### Pas 10 – Afegir tercer disc virtual, formatar-lo en NTFS com a Backups
 
-Des de la configuració de VirtualBox, afegim un **tercer disc** (`Projecte 2 SP1_2.vdi`) de 5 GB connectat al port SATA 3. Servirà com a unitat de còpies de seguretat.
+Des de la configuració de VirtualBox, afegim un **tercer disc** (`windows10_2.vdi`) de 5 GB connectat al port SATA 3. Servirà com a unitat de còpies de seguretat.
 
 <img width="663" height="325" alt="24" src="https://github.com/user-attachments/assets/bcb3c20f-5489-449a-8a8f-d12c96b20cc2" />
 
@@ -230,7 +230,7 @@ La captura confirma que la carpeta `CòpiesUsuaris` ha estat creada correctament
 
 ### Pas 12 – Crear un script .bat que copiï C:\Users\%USERNAME% a B:\CòpiesUsuaris\%USERNAME%
 
-Creem un fitxer `script.bat` (per exemple a `C:\Users\aaron\Documents\script.bat`) amb el contingut següent:
+Creem un fitxer `script.bat` (per exemple a `C:\Users\nicksist\Documents\script.bat`) amb el contingut següent:
 
 ```bat
 @echo off
@@ -274,7 +274,7 @@ Fem doble clic sobre **Iniciar sessió** per obrir la finestra de propietats.
 
 A la finestra de propietats d'**Iniciar sessió**, fem clic a **Agregar…** i introduïm la ruta completa al nostre script:
 
-`C:\Users\aaron\Documents\script.bat`
+`C:\Users\nicksist\Documents\script.bat`
 
 Fem clic a **Aceptar** per confirmar.
 
@@ -513,7 +513,7 @@ La captura de la configuració avançada final mostra el resultat: la columna **
 
 ### Pas 26 – Comprovar accés amb alumne1
 
-Iniciem sessió com a **alumne1** (membre del grup Limitats). Creem un fitxer de text `hey.txt` a `E:\Projectes` amb el contingut "hola".
+Iniciem sessió com a **alumne1** (membre del grup Limitats). Creem un fitxer de text `prova.txt` a `E:\Projectes` amb el contingut "hola prova".
 
 La captura confirma que alumne1 ha pogut crear i escriure el fitxer sense cap problema, tal com s'esperava (té **Control total** hereta del grup Limitats).
 
@@ -553,7 +553,7 @@ Quan alumne2 intenta crear un fitxer nou o modificar algun existent, rep un miss
 <img width="460" height="109" alt="54" src="https://github.com/user-attachments/assets/78d25f28-c3e8-485a-99c4-ef0848d0e219" />
 
 
-Tornem a iniciar sessió com a alumne1 i comprovem que pot llegir i veure el fitxer `hola.txt` creat a la sessió anterior.
+Tornem a iniciar sessió com a alumne1 i comprovem que pot llegir i veure el fitxer `prova.txt` creat a la sessió anterior.
 
 <img width="295" height="94" alt="53" src="https://github.com/user-attachments/assets/be4f55d0-5079-4b70-a54b-7f33ceebdd36" />
 
