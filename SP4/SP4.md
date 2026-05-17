@@ -52,7 +52,8 @@ Abans d'iniciar Windows Server, apaguem completament la màquina virtual i anem 
 
 A la captura es pot veure com queden els tres discos afegits al controlador SATA de la màquina virtual, tots amb una mida virtual de 10,00 GB.
 
-![Configuració VirtualBox - 3 discos nous afegits de 10GB cadascun](imatges-windows/1.png)
+<img width="581" height="313" alt="image" src="https://github.com/user-attachments/assets/cc6770fd-f2a5-4ffa-acbe-7686f5d48347" />
+
 
 ---
 
@@ -60,7 +61,8 @@ A la captura es pot veure com queden els tres discos afegits al controlador SATA
 
 Un cop iniciada la màquina, premem **Windows + R** per obrir el diàleg d'execució i escrivim `diskmgmt.msc`. Premem **Acceptar** per obrir l'**Administrador de discos lògics**.
 
-![Windows + R → diskmgmt.msc per obrir el Gestor de discos](imatges-windows/2.png)
+<img width="382" height="206" alt="image" src="https://github.com/user-attachments/assets/05893e76-e8b4-4354-9132-a75432fd7ffc" />
+
 
 ---
 
@@ -68,7 +70,8 @@ Un cop iniciada la màquina, premem **Windows + R** per obrir el diàleg d'execu
 
 En obrir el Gestor de discos, apareix automàticament l'assistent per inicialitzar els discos nous. Seleccionem els tres discos (**Disco 1**, **Disco 2**, **Disco 3**) i triem l'estil de partició **GPT** (*GUID Partition Table*), recomanat per a sistemes moderns i discos de més de 2 TB. Fem clic a **Aceptar**.
 
-![Inicialitzar discos - Selecció Disco 1, 2, 3 amb estil GPT](imatges-windows/3.png)
+<img width="383" height="289" alt="image" src="https://github.com/user-attachments/assets/1a74dacf-1b7e-42e0-a443-bf287a463a44" />
+
 
 ---
 
@@ -76,7 +79,8 @@ En obrir el Gestor de discos, apareix automàticament l'assistent per inicialitz
 
 Després de la inicialització, el Gestor de discos mostra els tres discos com a **Bàsic**, amb **9,98 GB** cadascun i tot l'espai com a **No asignat**. Encara no s'ha creat cap partició ni volum.
 
-![Disk Management - Disco 1, 2, 3 inicialitzats com a Bàsic i No asignat](imatges-windows/4.png)
+<img width="167" height="181" alt="image" src="https://github.com/user-attachments/assets/9ddfbd72-8dac-49f1-a8e0-f9246a237a9c" />
+
 
 ---
 
@@ -84,11 +88,11 @@ Després de la inicialització, el Gestor de discos mostra els tres discos com a
 
 Per poder crear un volum RAID 5 amb el Gestor de discos de Windows, els discos han de ser de tipus **Dinàmic**. Fem clic dret sobre el **Disco 1** i seleccionem **Convertir en disco dinámico...**
 
-![Clic dret sobre Disco 1 → Convertir en disco dinámico](imatges-windows/5.png)
+<img width="352" height="295" alt="image" src="https://github.com/user-attachments/assets/a4e9fe06-325b-4310-84ee-1f03200b514d" />
 
 Al diàleg que apareix, marquem els tres discos (**Disco 1**, **Disco 2**, **Disco 3**) i fem clic a **Aceptar** per convertir-los tots d'un sol cop.
 
-![Selecció dels 3 discos per convertir a dinàmics](imatges-windows/6.png)
+<img width="325" height="204" alt="image" src="https://github.com/user-attachments/assets/f7c2b690-e072-4d65-8b8e-d1186ed6c4a0" />
 
 ---
 
@@ -96,7 +100,8 @@ Al diàleg que apareix, marquem els tres discos (**Disco 1**, **Disco 2**, **Dis
 
 Després de la conversió, el Gestor de discos mostra els tres discos amb l'etiqueta **Dinámico** i tot l'espai segueix com a **No asignat**. Ja estan preparats per crear el RAID 5.
 
-![Disk Management - Disco 1, 2, 3 ara com a Dinámico i No asignat](imatges-windows/7.png)
+<img width="221" height="176" alt="image" src="https://github.com/user-attachments/assets/bca61c15-62f7-4b4c-a063-dd809f771a87" />
+
 
 ---
 
@@ -104,7 +109,7 @@ Després de la conversió, el Gestor de discos mostra els tres discos amb l'etiq
 
 Fem clic dret sobre l'espai no assignat del **Disco 1** i seleccionem **Nuevo volumen RAID-5...** per iniciar l'assistent de creació.
 
-![Clic dret → Nuevo volumen RAID-5...](imatges-windows/8.png)
+<img width="526" height="272" alt="image" src="https://github.com/user-attachments/assets/2517a36f-45b5-405a-8e84-2b55cc0343db" />
 
 ---
 
@@ -117,7 +122,8 @@ A l'assistent, afegim els tres discos (**Disco 1**, **Disco 2**, **Disco 3**) a 
 
 Recordem que en RAID 5 la capacitat útil és `(N-1) × mida_disc` = 2 × 10 GB = **20 GB**.
 
-![Selecció dels 3 discos pel RAID 5 - capacitat útil 20.444 MB](imatges-windows/9.png)
+<img width="482" height="397" alt="image" src="https://github.com/user-attachments/assets/b8dd76f4-880d-47c2-b4b8-cb1aefadcb03" />
+
 
 ---
 
@@ -125,7 +131,7 @@ Recordem que en RAID 5 la capacitat útil és `(N-1) × mida_disc` = 2 × 10 GB 
 
 Assignem la lletra **R:** al nou volum RAID 5, que és la lletra que utilitzarem per accedir als fitxers del RAID des de l'explorador d'arxius.
 
-![Assignació de la lletra R: al volum RAID 5](imatges-windows/10.png)
+<img width="488" height="394" alt="image" src="https://github.com/user-attachments/assets/8059ee7a-6d23-4e90-93a8-5ec2d60db2d9" />
 
 ---
 
@@ -165,7 +171,7 @@ Fem clic a **Finalizar** per crear el RAID.
 
 El Gestor de discos mostra els tres discos mentre s'estan formatant. El progrés indica que el format està al **92%**. Els tres discos estan sincronitzant les dades i la paritat.
 
-![Disk Management - Format del RAID 5 en curs al 92%](imatges-windows/13.png)
+<img width="151" height="178" alt="image" src="https://github.com/user-attachments/assets/72db3220-bf24-435c-bcc5-e3115d6079c6" />
 
 ---
 
@@ -249,7 +255,8 @@ Amb dos discos fora de línia, el Gestor de discos mostra tots els membres amb e
 
 > **El RAID 5 només tolera la fallada d'UN disc.** Amb dos discos fallats, es perd l'accés a totes les dades.
 
-![RAID 5 col·lapsat - Disco 1 i Disco 2 desactivats, estat Error a tots](imatges-windows/22.png)
+<img width="151" height="376" alt="image" src="https://github.com/user-attachments/assets/813d4810-f454-4a2a-8199-3b6cef88e662" />
+
 
 ---
 
@@ -259,7 +266,7 @@ Amb dos discos fora de línia, el Gestor de discos mostra tots els membres amb e
 
 Per recuperar el RAID, tornem a posar els discos en línia. Fem clic dret sobre el **Disco 1** (en estat "Desactivada") i seleccionem **En línea**.
 
-![Clic dret Disco 1 → En línea per iniciar la recuperació](imatges-windows/23.png)
+<img width="228" height="158" alt="image" src="https://github.com/user-attachments/assets/7326e2f3-3083-4ce5-9cd9-94e92adfd9d1" />
 
 ---
 
