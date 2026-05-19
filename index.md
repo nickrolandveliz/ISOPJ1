@@ -18,7 +18,7 @@ El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
 ### [A1. Sprint 1: Instal·lació i Configuració Inicial](SP1/SP1-windowsbo.md)  
 ### [A2. Sprint 2: Instal·lació, Configuració de Programari de Base i Gestió de Fitxers](SP2/sp2windows.md)  
 ### [A3. Sprint 3: Administració de Dominis i Seguretat](SP3/sp3windows.md)  
-### [A4. Sprint 4: Configuració del Programari de Base i Sistemes d’Emmagatzematge en Ubuntu](SP4/sp4windows.md)  
+### [A4. Sprint 4: Configuració del Programari de Base i Sistemes d’Emmagatzematge en Ubuntu](SP4/sp4.md)  
 ### [A5. Sprint 5: Monitoratge, Auditories i Programari Client/Servidor](SP5/sp5windows.md)  
 
 ### [Relación entre Unidades y Resultados de Aprendizaje (RAs)](ras.md)  
